@@ -11,7 +11,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
     <div class="clearfix">
 
-      <h1 class="event-time-heading fix-top">Future {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif %} </h1>
+      <h1 class="event-time-heading fix-top">I prossimi incontri</h1>
 
       {% for post in site.posts reversed %}
 
@@ -37,7 +37,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
     </div>
     <div class="clearfix">
 
-      <h1 class="event-time-heading">Past {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif %} </h1>
+      <h1 class="event-time-heading">Incontri passati</h1>
       {% for post in site.posts %}
 
         {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
