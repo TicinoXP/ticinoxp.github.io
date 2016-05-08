@@ -4,7 +4,7 @@ layout: post
 #event information
 title:  "C# Code Kata"
 cover: "/img/kata1/IMG_20160508_214539.jpg"
-date:   2016-01-27
+date:   2015-01-27
 start_time: "12:00"
 end_time: "13:00"
 
