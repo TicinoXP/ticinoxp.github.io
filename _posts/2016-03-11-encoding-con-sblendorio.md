@@ -23,3 +23,5 @@ Nella seconda parte della serata [Mattia Piccinetti](https://twitter.com/peachof
 Dopo il meetup, pizza e birra al Bivio di Manno.
 
 L'incontro è stato gratuito: il costo dell'affitto della Sala è stato sostenuto da TicinoXP.
+
+Le slide della presentazione sono disponibili [qui](https://goo.gl/MklLQr).
