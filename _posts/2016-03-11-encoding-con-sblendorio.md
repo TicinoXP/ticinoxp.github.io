@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "PerchÃ© l'encoding Ã¨ importante?"
-cover: "/img/encoding/tshirt-utf8.jpg"
+cover: "/img/encoding/IMG_20160311_190240.jpg"
 date:   2016-03-11
 start_time: "18:30"
 end_time: "22:00"
@@ -26,12 +26,11 @@ L'incontro è stato gratuito: il costo dell'affitto della Sala è stato sostenut
 
 Le slide della presentazione sono disponibili [qui](https://goo.gl/MklLQr).
 
+![encoding1](/img/encoding/IMG_20160311_184256.jpg)
 ![encoding1](/img/encoding/IMG_0543.jpg)
 ![encoding1](/img/encoding/IMG_0544.jpg)
-![encoding1](/img/encoding/IMG_0545.jpg)
 ![encoding1](/img/encoding/IMG_0546.jpg)
 ![encoding1](/img/encoding/IMG_20160311_184022.jpg)
-![encoding1](/img/encoding/IMG_20160311_184256.jpg)
 ![encoding1](/img/encoding/IMG_20160311_184706.jpg)
 ![encoding1](/img/encoding/IMG_20160311_184708.jpg)
 ![encoding1](/img/encoding/IMG_20160311_190158.jpg)
