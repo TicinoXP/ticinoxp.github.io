@@ -2,24 +2,24 @@
 layout: post
 
 #event information
-title:  "Angular 2"
-cover: "https://www.dunebook.com/wp-content/uploads/2015/07/angular-dunebook.png"
-date:   2016-03-10
-start_time: "12:00"
-end_time: "13:00"
+title:  "Randori in C#"
+cover: "/img/randori1/logo.jpg"
+date:   2015-02-24
+start_time: "18:30"
+end_time: "23:00"
 
 #event organiser details
 
-organiser: "David Boyne"
+organiser: "Gian Carlo Pace"
 
 ---
 
-Angular computes updates based on changes to data, not DOM, for fast updates that scale to the largest data sets with minimal memory overhead.
 
-With Angular Universal for server-side rendering and Web Workers for smooth scrolling and transitions, Angular 2 solves the core challenges in mobile web performance.
+Di nuovo ospiti di [THE DOTS S.A.](https://the-dots.com), di nuovo armati di tastiera, di nuovo in Test-Driven Development.
+Anche questa volta guidati da Gian Carlo Pace abbiamo affrontato un problema ([qui](https://github.com/TicinoXP/Gioco-Dell-Oca) il codice) partendo da requisiti svelati all'ultimo momento.
 
-Supports several languages including plain JavaScript, TypeScript, and Dart. Also supports both object-style data structure with POJO data-binding and functional reactive style with unidirectional data flow and support for observables and immutable data structures.
+La sfida è stata uscire dalla nostra zona di comfort programmando in coppia, a turno, di fronte agli occhi del resto degli invitati, per poi commentare, criticarci e consigliarci, tutti insieme. 
 
-Angular is built by a team of engineers who share a passion for making web development feel effortless. We believe that writing beautiful apps should be joyful and fun. We're building a platform for the future....
 
-If you want to know more come along to my event!
+
+![randori](/img/randori1/logo.jpg)
