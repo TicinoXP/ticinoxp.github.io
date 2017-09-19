@@ -2,7 +2,7 @@
 <html lang="it"
 >
 <head>
-    <title>Authors - TicinoXP</title>
+    <title>#3 - Il maggiore di due numeri, senza comparatori - TicinoXP</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,18 +10,15 @@
 
 
 
+<link rel="canonical" href="./maggiore-senza-comparatori.html">
 
-        <meta name="author" content="TicinoXP" />
+        <meta name="author" content="Arialdo Martini" />
+        <meta name="keywords" content="code-game" />
+        <meta name="description" content="Trovare il maggiore di due numeri è banale: public int Max(int a, int b) { return Math.Max(a, b); } oppure: public int Max(int a, int b) { if(a &gt;= b) return a; else return b; } Ma riusciresti a farlo senza mai usare un comparatore? Ecco il testo: Write a ..." />
 
     <!-- Enable latex plugin -->
 
 
-    <!-- Open Graph tags -->
-        <meta property="og:site_name" content="TicinoXP" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="TicinoXP"/>
-        <meta property="og:url" content="."/>
-        <meta property="og:description" content="TicinoXP"/>
 
 
     <!-- Bootstrap -->
@@ -54,7 +51,7 @@
                          <li><a href="./pages/about.html">
                              About
                           </a></li>
-                        <li >
+                        <li class="active">
                             <a href="./category/code-games.html">Code games</a>
                         </li>
                         <li >
@@ -72,13 +69,83 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-        <ol class="breadcrumb">
-            <li><a href="." title="TicinoXP"><i class="fa fa-home fa-lg"></i></a></li>
-            <li class="active">Authors</li>
-        </ol>
+            <ol class="breadcrumb">
+                <li><a href="." title="TicinoXP"><i class="fa fa-home fa-lg"></i></a></li>
+                <li class="active">#3 - Il maggiore di due numeri, senza comparatori</li>
+            </ol>
 
-    <h1>Authors on TicinoXP</h1>
-        <li><a href="./author/arialdo-martini.html">Arialdo Martini</a> (7)</li>
+    <section id="content">
+        <article>
+            <header class="page-header">
+    <p>
+        <a class="btn btn-info btn-xs" href="./category/Code Games">Code Games</a>
+    </p>
+                <h1>
+                    <a href="./maggiore-senza-comparatori.html"
+                       rel="bookmark"
+                       title="Permalink to #3 - Il maggiore di due numeri, senza comparatori">
+                        #3 - Il maggiore di due numeri, senza comparatori
+                    </a>
+                </h1>
+<footer class="post-info">
+    <span class="published">
+        Arialdo Martini - <i class="fa fa-calendar"></i><time datetime="2017-09-19T08:30:00+02:00"> Tue 19 September 2017</time>
+    </span>
+
+
+
+
+
+
+
+    
+</footer><!-- /.post-info -->            </header>
+            <div class="entry-content">
+                <!-- <span class="published">
+                     Arialdo Martini - <i class="fa fa-calendar"></i><time datetime="2017-09-19T08:30:00+02:00"> Tue 19 September 2017</time>
+                     </span>
+                   -->
+
+                <p>Trovare il maggiore di due numeri è banale:</p>
+<pre class="literal-block">
+public int Max(int a, int b)
+{
+    return Math.Max(a, b);
+}
+</pre>
+<p>oppure:</p>
+<pre class="literal-block">
+public int Max(int a, int b)
+{
+    if(a &gt;= b) return a;
+    else return b;
+}
+</pre>
+<p>Ma riusciresti a farlo senza mai usare un comparatore?</p>
+<p>Ecco il testo:</p>
+<pre class="literal-block">
+Write a function that takes 2 integers and returns the greater
+of them, or one of them if they are equal.
+You should not use comparators such as &gt;, &lt;, ==, Math.Max()
+and the like.
+
+Example:
+
+Max(0, 0) =&gt; 0
+Max(10, 0) =&gt; 10
+Max(0, 10) =&gt; 10
+Max(-1, 0) =&gt; 0
+Max(-1, 1) =&gt; 1
+Max(-10, -1) =&gt; -1
+</pre>
+<p>Vince l'approccio più originale.</p>
+<p>Se vuoi pubblicare una soluzione, fai un fork del repository  <a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/README.md">https://github.com/TicinoXP/code-games</a></p>
+
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
         </div>
         <div class="col-sm-3 well well-sm" id="sidebar">
 
