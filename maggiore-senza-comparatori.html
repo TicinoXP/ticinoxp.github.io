@@ -221,18 +221,26 @@ b = 4
                       ^
                     centro
 </pre>
-<div class="highlight"><pre><span class="k">public</span> <span class="k">class</span> <span class="nc">Resolver</span>
+<p>Non è geniale?</p>
+<p>Il codice è:</p>
+<div class="highlight"><pre><span class="k">public</span> <span class="kt">short</span> <span class="nf">Max</span><span class="p">(</span><span class="kt">short</span> <span class="n">a</span><span class="p">,</span> <span class="kt">short</span> <span class="n">b</span><span class="p">)</span>
 <span class="p">{</span>
-    <span class="k">public</span> <span class="kt">int</span> <span class="nf">Max</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="kt">var</span> <span class="n">media</span> <span class="p">=</span> <span class="p">((</span><span class="kt">double</span><span class="p">)</span><span class="n">a</span> <span class="p">+</span> <span class="n">b</span><span class="p">)</span> <span class="p">/</span> <span class="m">2</span><span class="p">;</span>
-        <span class="kt">var</span> <span class="n">diff</span> <span class="p">=</span> <span class="n">Math</span><span class="p">.</span><span class="n">Abs</span><span class="p">((</span><span class="kt">double</span><span class="p">)</span><span class="n">a</span> <span class="p">-</span> <span class="n">b</span><span class="p">)</span> <span class="p">/</span> <span class="m">2</span><span class="p">;</span>
+    <span class="kt">var</span> <span class="n">list</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">uint</span><span class="p">&gt;();</span>
 
-        <span class="k">return</span> <span class="p">(</span><span class="kt">int</span><span class="p">)(</span><span class="n">media</span> <span class="p">+</span> <span class="n">diff</span><span class="p">);</span>
-    <span class="p">}</span>
+    <span class="kt">var</span> <span class="n">uintA</span> <span class="p">=</span> <span class="p">(</span><span class="kt">ushort</span><span class="p">)(</span><span class="kt">short</span><span class="p">.</span><span class="n">MaxValue</span> <span class="p">+</span> <span class="n">a</span><span class="p">);</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">uintA</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+        <span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">uintA</span><span class="p">);</span>
+
+    <span class="kt">var</span> <span class="n">uintB</span> <span class="p">=</span> <span class="p">(</span><span class="kt">ushort</span><span class="p">)(</span><span class="kt">short</span><span class="p">.</span><span class="n">MaxValue</span> <span class="p">+</span> <span class="n">b</span><span class="p">);</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">var</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">uintB</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+        <span class="n">list</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">uintB</span><span class="p">);</span>
+
+    <span class="k">return</span> <span class="p">(</span><span class="kt">short</span><span class="p">)(</span><span class="n">list</span><span class="p">[((</span><span class="n">uintA</span> <span class="p">+</span> <span class="n">uintB</span><span class="p">)</span> <span class="p">/</span> <span class="m">2</span><span class="p">)]</span> <span class="p">-</span> <span class="kt">short</span><span class="p">.</span><span class="n">MaxValue</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
-<p>Il sistema non è perfetto, perché non funziona con i numeri negativi, ma è comunque geniale!</p>
+<p>L'uso di <tt class="docutils literal">short.MaxValue</tt> è un altro trucco furbo per fare in modo che l'agoritmo funzioni
+anche con i numeri negativi: sommando ai valori in ingresso <tt class="docutils literal">short.MaxValue</tt> si traslano
+tutti i casi nel dominio dei numeri positivi.</p>
 </div>
 <div class="section" id="arialdo">
 <h3>Arialdo</h3>
@@ -250,7 +258,7 @@ b = 4
 &lt;------ b -----&gt; ^
                  max
 </pre>
-<p>L'algoritmo può essere implementato con una singola espressione LINQ:</p>
+<p>Questa versione ha il vantaggio di poter essere implementata con una singola espressione LINQ:</p>
 <div class="highlight"><pre><span class="k">public</span> <span class="kt">int</span> <span class="nf">Max</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
 <span class="p">{</span>
     <span class="k">return</span> <span class="n">Enumerable</span><span class="p">.</span><span class="n">Repeat</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">a</span><span class="p">).</span><span class="n">Concat</span><span class="p">(</span><span class="n">Enumerable</span><span class="p">.</span><span class="n">Repeat</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">b</span><span class="p">).</span><span class="n">Skip</span><span class="p">(</span><span class="n">b</span><span class="p">).</span><span class="n">ToList</span><span class="p">()[</span><span class="m">0</span><span class="p">];</span>
@@ -312,8 +320,6 @@ L'algoritmo che ne risulta è:</p>
  <span class="p">}</span>
 </pre></div>
 <p>Fa schifo, ma funziona!</p>
-<p>Perché l'algoritmo funzioni anche con i numeri negativi, il trucco è di sommare <tt class="docutils literal">Int.Max</tt> in
-modo da traslare tutti i casi nel dominio dei numeri positivi.</p>
 </div>
 </div>
 
