@@ -107,20 +107,18 @@
                    -->
 
                 <p>Trovare il maggiore di due numeri è banale:</p>
-<pre class="literal-block">
-public int Max(int a, int b)
-{
-    return Math.Max(a, b);
-}
-</pre>
+<div class="highlight"><pre><span class="k">public</span> <span class="kt">int</span> <span class="nf">Max</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">return</span> <span class="n">Math</span><span class="p">.</span><span class="n">Max</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
 <p>oppure:</p>
-<pre class="literal-block">
-public int Max(int a, int b)
-{
-    if(a &gt;= b) return a;
-    else return b;
-}
-</pre>
+<div class="highlight"><pre><span class="k">public</span> <span class="kt">int</span> <span class="nf">Max</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">a</span> <span class="p">&gt;=</span> <span class="n">b</span><span class="p">)</span> <span class="k">return</span> <span class="n">a</span><span class="p">;</span>
+    <span class="k">else</span> <span class="k">return</span> <span class="n">b</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
 <p>Ma riusciresti a farlo senza mai usare un comparatore?
 Niente <tt class="docutils literal">&gt;</tt>, <tt class="docutils literal">&lt;</tt>, <tt class="docutils literal">==</tt>, nessun <tt class="docutils literal">if/then/else</tt> e nessuno <tt class="docutils literal">switch</tt>!</p>
 <p>Ecco il testo:</p>
@@ -140,7 +138,184 @@ Max(-1, 1) =&gt; 1
 Max(-10, -1) =&gt; -1
 </pre>
 <p>Vince l'approccio più originale.</p>
-<p>Se vuoi pubblicare una soluzione, fai un fork del repository  <a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/README.md">https://github.com/TicinoXP/code-games</a></p>
+<p>Se vuoi pubblicare una soluzione, fai una pull request sul repository  <a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/README.md">https://github.com/TicinoXP/code-games</a></p>
+<div class="section" id="le-nostre-soluzioni">
+<h2>Le nostre soluzioni</h2>
+<div class="section" id="emanuele">
+<h3>Emanuele</h3>
+<p>Emanuele ha trovato <a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/1-maggiore-senza-comparatori/Arialdo/MaxWithoutComparators/Emanuele.cs">una soluzione</a> che sfrutta il valore assoluto. Dal momento che:</p>
+<pre class="literal-block">
+      | + a if a &gt; 0
+      |
+|a|  &lt;
+      |
+      | - a if a &lt; 0
+</pre>
+<p><tt class="docutils literal">Math.Abs()</tt> può essere sfruttato per realizzare un <tt class="docutils literal">if/else</tt>. La sua soluzione è super concisa, e funziona sia con i numeri positivi che con quelli negativi:</p>
+<div class="highlight"><pre><span class="k">public</span> <span class="kt">int</span> <span class="nf">Max</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="p">+</span> <span class="n">b</span> <span class="p">-</span> <span class="n">Math</span><span class="p">.</span><span class="n">Abs</span><span class="p">(</span><span class="n">a</span> <span class="p">-</span> <span class="n">b</span><span class="p">)</span> <span class="p">)</span> <span class="p">/</span><span class="m">2</span><span class="p">;</span>
+</pre></div>
+</div>
+<div class="section" id="stefano">
+<h3>Stefano</h3>
+<p>A chi dovesse storcere la bocca all'idea di usare l'<tt class="docutils literal">if/else</tt> nascosto dentro il valore assoluto piacerà l'enhancement proposto da Stefano: usare la radice del quadrato come alternativa al valore assoluto, che porta a questa soluzione:</p>
+<div class="highlight"><pre><span class="k">public</span> <span class="kt">int</span> <span class="nf">Max</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">(</span><span class="n">a</span> <span class="p">+</span> <span class="n">b</span> <span class="p">-</span> <span class="n">Math</span><span class="p">.</span><span class="n">Sqrt</span><span class="p">(</span><span class="n">Math</span><span class="p">.</span><span class="n">Pow</span><span class="p">(</span><span class="n">a</span> <span class="p">-</span> <span class="n">b</span><span class="p">,</span> <span class="m">2</span><span class="p">)))</span> <span class="p">/</span> <span class="m">2</span> <span class="p">;</span>
+</pre></div>
+</div>
+<div class="section" id="raffaele">
+<h3>Raffaele</h3>
+<p>Anche Raffaele ha trovato il modo di evitare l'uso del valore assoluto, e ha sfruttato il calcolo
+del segno di un'espressione. La sua soluzione è <a class="reference external" href="https://github.com/TicinoXP/code-games/tree/master/1-maggiore-senza-comparatori/raffaele">qui</a></p>
+<p>Era partito da questa formula:</p>
+<div class="highlight"><pre><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">comparator</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="o">(</span><span class="n">a</span> <span class="o">/</span> <span class="mi">2</span><span class="o">)</span> <span class="o">*</span> <span class="o">(</span><span class="n">Math</span><span class="o">.</span><span class="na">signum</span><span class="o">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="o">)</span> <span class="o">+</span> <span class="mi">1</span><span class="o">)</span> <span class="o">+</span> <span class="n">b</span> <span class="o">*</span> <span class="n">Math</span><span class="o">.</span><span class="na">signum</span><span class="o">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="o">);</span>
+<span class="o">}</span>
+</pre></div>
+<p>ma poi, rendendosi conto che non funzionava nel caso in cui <tt class="docutils literal">a</tt> e <tt class="docutils literal">b</tt> fossero uguali,
+l'ha elaborata così:</p>
+<img alt="" src="images/max-without-comparators/appunti-raffaele.jpg" />
+<p>Tradotta in Java:</p>
+<div class="highlight"><pre><span class="kd">public</span> <span class="kt">int</span> <span class="nf">comparator</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">)</span> <span class="o">{</span>
+  <span class="k">return</span> <span class="o">(</span><span class="kt">int</span><span class="o">)</span>
+    <span class="o">(</span><span class="n">a</span> <span class="o">*</span> <span class="o">(</span><span class="n">Math</span><span class="o">.</span><span class="na">signum</span><span class="o">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="o">)</span> <span class="o">+</span> <span class="mi">1</span><span class="o">)</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">+</span>
+    <span class="n">b</span> <span class="o">*</span> <span class="o">(</span><span class="n">Math</span><span class="o">.</span><span class="na">signum</span><span class="o">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="o">)</span> <span class="o">+</span> <span class="mi">1</span><span class="o">)</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">-</span>
+    <span class="o">(</span><span class="n">Math</span><span class="o">.</span><span class="na">signum</span><span class="o">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="o">)</span> <span class="o">+</span> <span class="n">Math</span><span class="o">.</span><span class="na">signum</span><span class="o">(</span><span class="n">b</span> <span class="o">-</span> <span class="n">a</span><span class="o">))</span> <span class="o">/</span> <span class="mi">2</span><span class="o">);</span>
+<span class="o">}</span>
+</pre></div>
+<p>che, opportunamente semplificata, è diventata:</p>
+<div class="highlight"><pre><span class="kd">public</span> <span class="kt">int</span> <span class="nf">comparator</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">,</span> <span class="kt">int</span> <span class="n">b</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="o">(</span><span class="kt">int</span><span class="o">)</span> <span class="o">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">+</span> <span class="n">Math</span><span class="o">.</span><span class="na">signum</span><span class="o">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="o">)</span> <span class="o">*</span> <span class="o">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="o">))</span> <span class="o">/</span><span class="mi">2</span><span class="o">;</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+<div class="section" id="leonardo">
+<h3>Leonardo</h3>
+<p>La soluzione di Leonardo sfrutta invece un trucco completamente diverso:</p>
+<div class="highlight"><pre><span class="k">public</span> <span class="kt">int</span> <span class="nf">Max</span><span class="p">(</span><span class="kt">int</span> <span class="n">number1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">number2</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="k">try</span>
+  <span class="p">{</span>
+    <span class="kt">var</span> <span class="n">result</span> <span class="p">=</span> <span class="n">number1</span> <span class="p">-</span> <span class="n">number2</span><span class="p">;</span>
+    <span class="n">Convert</span><span class="p">.</span><span class="n">ToUInt32</span><span class="p">(</span><span class="n">result</span><span class="p">);</span>
+
+    <span class="k">return</span> <span class="n">number1</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">catch</span>
+  <span class="p">{</span>
+    <span class="k">return</span> <span class="n">number2</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p>Un applauso per la fantasia!!!</p>
+</div>
+<div class="section" id="giuseppe-lombardi">
+<h3>Giuseppe Lombardi</h3>
+<p>Un'altra soluzione davvero astuta e fantasiosa la propone Giuseppe (<a class="reference external" href="https://github.com/beppel/code-games/tree/master/1-maggiore-senza-comparatori/MaggioreSenzaComparatori">https://github.com/beppel/code-games/tree/master/1-maggiore-senza-comparatori/MaggioreSenzaComparatori</a>): se si accodano in un array <tt class="docutils literal">a</tt> ripetuto <tt class="docutils literal">a</tt> volte e <tt class="docutils literal">b</tt> ripetuto <tt class="docutils literal">b</tt> volte, l'elemento al centro dell'array sarà il maggiore:</p>
+<pre class="literal-block">
+a = 7
+b = 4
+
+  0    1    2    3    4    5    6    7    8
+=============================================
+| 7 | 7 | 7 | 7 | 7 | 7 | 7 | 4 | 4 | 4 | 4 |
+=============================================
+                      ^
+                    centro
+</pre>
+<div class="highlight"><pre><span class="k">public</span> <span class="k">class</span> <span class="nc">Resolver</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="kt">int</span> <span class="nf">Max</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="kt">var</span> <span class="n">media</span> <span class="p">=</span> <span class="p">((</span><span class="kt">double</span><span class="p">)</span><span class="n">a</span> <span class="p">+</span> <span class="n">b</span><span class="p">)</span> <span class="p">/</span> <span class="m">2</span><span class="p">;</span>
+        <span class="kt">var</span> <span class="n">diff</span> <span class="p">=</span> <span class="n">Math</span><span class="p">.</span><span class="n">Abs</span><span class="p">((</span><span class="kt">double</span><span class="p">)</span><span class="n">a</span> <span class="p">-</span> <span class="n">b</span><span class="p">)</span> <span class="p">/</span> <span class="m">2</span><span class="p">;</span>
+
+        <span class="k">return</span> <span class="p">(</span><span class="kt">int</span><span class="p">)(</span><span class="n">media</span> <span class="p">+</span> <span class="n">diff</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p>Il sistema non è perfetto, perché non funziona con i numeri negativi, ma è comunque geniale!</p>
+</div>
+<div class="section" id="arialdo">
+<h3>Arialdo</h3>
+<p>Esiste una piccola variante della soluzione di Giuseppe: si inseriscono in un array <tt class="docutils literal">a</tt> volte <tt class="docutils literal">a</tt>
+e <tt class="docutils literal">b</tt> volte <tt class="docutils literal">b</tt>, e poi si estraggono <tt class="docutils literal">b</tt> elementi da sinistra; il successivo contiene il max:</p>
+<pre class="literal-block">
+a = 7
+b = 4
+
+  0    1    2    3    4    5    6    7    8
+=============================================
+| 7 | 7 | 7 | 7 | 7 | 7 | 7 | 4 | 4 | 4 | 4 |
+=============================================
+&lt;----------- a  ------------&gt;&lt;------ b -----&gt;
+&lt;------ b -----&gt; ^
+                 max
+</pre>
+<p>L'algoritmo può essere implementato con una singola espressione LINQ:</p>
+<div class="highlight"><pre><span class="k">public</span> <span class="kt">int</span> <span class="nf">Max</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">return</span> <span class="n">Enumerable</span><span class="p">.</span><span class="n">Repeat</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">a</span><span class="p">).</span><span class="n">Concat</span><span class="p">(</span><span class="n">Enumerable</span><span class="p">.</span><span class="n">Repeat</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">b</span><span class="p">).</span><span class="n">Skip</span><span class="p">(</span><span class="n">b</span><span class="p">).</span><span class="n">ToList</span><span class="p">()[</span><span class="m">0</span><span class="p">];</span>
+<span class="p">}</span>
+</pre></div>
+<p>Arialdo ha trovato <a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/1-maggiore-senza-comparatori/Arialdo/MaxWithoutComparators/Arialdo.cs">un secondo approccio</a>, molto più convoluto e prolisso, e molto
+meno efficiente.
+L'idea è sfruttare il confronto tra bit e una funzione ricorsiva.</p>
+<p>Si prendono i due numeri e li si traducono in binario:</p>
+<pre class="literal-block">
+a = 1 1 0 1 0 1 0 1 0 1
+b =       1 1 1 0 0 1 1
+</pre>
+<p>Si aggiungono all'occorrenza dei trailing 0:</p>
+<pre class="literal-block">
+a = 1 1 0 1 0 1 0 1 0 1
+b = 0 0 0 1 1 1 0 0 1 1
+</pre>
+<p>e si iniziano a confrontare i bit partendo da quelli più significativi: se un numero
+ha il bit a 1 mentre l'altro lo ha a 0, è facile capire quale dei due sia maggiore:</p>
+<div class="highlight"><pre><span class="k">public</span> <span class="kt">bool</span> <span class="nf">IsBigger</span><span class="p">(</span><span class="kt">bool</span> <span class="n">a</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="n">a</span> <span class="p">&amp;&amp;</span> <span class="p">!</span><span class="n">b</span><span class="p">;</span>
+</pre></div>
+<p>Se i due bit sono uguali</p>
+<div class="highlight"><pre><span class="k">public</span> <span class="kt">bool</span> <span class="nf">AreEqual</span><span class="p">(</span><span class="kt">bool</span> <span class="n">a</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">b</span><span class="p">)</span> <span class="p">=&gt;</span>  <span class="n">a</span> <span class="p">&amp;&amp;</span> <span class="n">b</span> <span class="p">||</span> <span class="p">(!</span><span class="n">a</span> <span class="p">&amp;&amp;</span> <span class="p">!</span><span class="n">b</span><span class="p">);</span>
+</pre></div>
+<p>si deve procedere ricorsivamente.</p>
+<p>Il problema della ricorsione è che ha bisogno di valutare la condizione di uscita,
+altrimenti non terminerebbe mai.
+Mentre è facile calcolare la condizione di uscita (non devono esserci altri numeri da valutare):</p>
+<div class="highlight"><pre><span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="nf">ThereAreOtherItems</span><span class="p">(</span><span class="n">List</span><span class="p">&lt;</span><span class="kt">bool</span><span class="p">&gt;</span> <span class="n">ab</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="n">ToBoolean</span><span class="p">(</span><span class="n">ab</span><span class="p">.</span><span class="n">Count</span><span class="p">());</span>
+</pre></div>
+<p>è un po' più difficile valutarla, perché richiederebbe un <tt class="docutils literal">if</tt>. Il trucco è sfruttare
+la <em>short-circuit evaluation</em> degli operatori booleani: in pratica, in un <tt class="docutils literal">or</tt> il secondo
+elemento non viene valutato se il primo è già <tt class="docutils literal">true</tt>.
+L'algoritmo che ne risulta è:</p>
+<div class="highlight"><pre><span class="k">public</span> <span class="kt">bool</span> <span class="nf">AIsBigger</span><span class="p">(</span><span class="n">List</span><span class="p">&lt;</span><span class="kt">bool</span><span class="p">&gt;</span> <span class="n">ab</span><span class="p">,</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">bool</span><span class="p">&gt;</span> <span class="n">bb</span><span class="p">)</span>
+<span class="p">{</span>
+     <span class="kt">var</span> <span class="n">headA</span> <span class="p">=</span> <span class="n">ab</span><span class="p">.</span><span class="n">First</span><span class="p">();</span>
+     <span class="kt">var</span> <span class="n">headB</span> <span class="p">=</span> <span class="n">bb</span><span class="p">.</span><span class="n">First</span><span class="p">();</span>
+     <span class="kt">var</span> <span class="n">tailA</span> <span class="p">=</span> <span class="n">ab</span><span class="p">.</span><span class="n">Skip</span><span class="p">(</span><span class="m">1</span><span class="p">).</span><span class="n">ToList</span><span class="p">();</span>
+     <span class="kt">var</span> <span class="n">tailB</span> <span class="p">=</span> <span class="n">bb</span><span class="p">.</span><span class="n">Skip</span><span class="p">(</span><span class="m">1</span><span class="p">).</span><span class="n">ToList</span><span class="p">();</span>
+     <span class="kt">var</span> <span class="n">aIsBigger</span> <span class="p">=</span> <span class="n">IsBigger</span><span class="p">(</span><span class="n">headA</span><span class="p">,</span> <span class="n">headB</span><span class="p">);</span>
+     <span class="kt">var</span> <span class="n">areEqual</span> <span class="p">=</span> <span class="n">AreEqual</span><span class="p">(</span><span class="n">headA</span><span class="p">,</span> <span class="n">headB</span><span class="p">);</span>
+     <span class="kt">var</span> <span class="n">thereAreOtherItems</span> <span class="p">=</span> <span class="n">ThereAreOtherItems</span><span class="p">(</span><span class="n">tailA</span><span class="p">);</span>
+     <span class="k">return</span>
+        <span class="p">(</span>
+            <span class="n">aIsBigger</span>
+        <span class="p">)</span>
+        <span class="p">||</span>
+        <span class="p">(</span>
+            <span class="n">areEqual</span>
+            <span class="p">&amp;&amp;</span>
+            <span class="p">(</span>
+                <span class="p">(</span><span class="n">thereAreOtherItems</span> <span class="p">&amp;&amp;</span> <span class="n">AIsBigger</span><span class="p">(</span><span class="n">tailA</span><span class="p">,</span> <span class="n">tailB</span><span class="p">))</span>
+                <span class="p">||</span>
+                <span class="p">!</span><span class="n">thereAreOtherItems</span>
+            <span class="p">)</span>
+        <span class="p">);</span>
+ <span class="p">}</span>
+</pre></div>
+<p>Fa schifo, ma funziona!</p>
+<p>Perché l'algoritmo funzioni anche con i numeri negativi, il trucco è di sommare <tt class="docutils literal">Int.Max</tt> in
+modo da traslare tutti i casi nel dominio dei numeri positivi.</p>
+</div>
+</div>
 
             </div>
             <!-- /.entry-content -->

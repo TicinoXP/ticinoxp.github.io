@@ -6068,3 +6068,9 @@ td.visible-print {
 .published {
     font-size: 75%;
 }
+
+
+.entry-content img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
