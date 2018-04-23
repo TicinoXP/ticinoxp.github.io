@@ -14,7 +14,7 @@
 
         <meta name="author" content="Arialdo Martini" />
         <meta name="keywords" content="code-game" />
-        <meta name="description" content="Ecco il quesito: Pond Sizes ---------- You have an integer matrix representing a plot of land, where the value at that location represents the height above sea level. A value of 0 indicates water. A pond is a region of water connected vertically, horizontally, or diagonally. The size of the pond ..." />
+        <meta name="description" content="Ecco il quesito: Pond Sizes ---------- You have an integer matrix representing a plot of land, where the value at that location represents the height above sea level. A value of 0 indicates water. A pond is a region of water connected vertically, horizontally, or diagonally. The size of the pond …" />
 
     <!-- Enable latex plugin -->
 
@@ -137,7 +137,7 @@ Output:
 <div class="section" id="alessandro">
 <h3>Alessandro</h3>
 <p>Ale ha battuto tutti sui tempi e, non contento della velocità, ha pure pubblicato due soluzioni. La sua <a class="reference external" href="https://github.com/TicinoXP/code-games/pull/3">prima soluzione</a> ruota intorno a questo snippet:</p>
-<div class="highlight"><pre><span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">r</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">r</span> <span class="p">&lt;</span> <span class="n">width</span><span class="p">;</span> <span class="n">r</span><span class="p">++)</span>
+<div class="highlight"><pre><span></span><span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">r</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">r</span> <span class="p">&lt;</span> <span class="n">width</span><span class="p">;</span> <span class="n">r</span><span class="p">++)</span>
 <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">c</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">c</span> <span class="p">&lt;</span> <span class="n">height</span><span class="p">;</span> <span class="n">c</span><span class="p">++)</span>
 <span class="p">{</span>
   <span class="kt">var</span> <span class="n">size</span> <span class="p">=</span> <span class="n">CountCells</span><span class="p">(</span><span class="n">pond</span><span class="p">,</span> <span class="n">mark</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">c</span><span class="p">);</span>
@@ -148,7 +148,7 @@ Output:
 <span class="k">return</span> <span class="n">result</span><span class="p">.</span><span class="n">Sort</span><span class="p">();</span>
 </pre></div>
 <p><tt class="docutils literal">CountCells</tt> contiene il cuore della sua soluzione. È una funzione ricorsiva che esplora l'area intorno a una cella, segnando in un accumulatore le celle visitate, in modo da realizzare la condizione di terminazione:</p>
-<div class="highlight"><pre><span class="k">public</span> <span class="kt">int</span> <span class="nf">CountCells</span><span class="p">(</span><span class="kt">int</span><span class="p">[,]</span> <span class="n">pond</span><span class="p">,</span> <span class="kt">bool</span><span class="p">[,]</span> <span class="n">yetMarked</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r</span><span class="p">,</span> <span class="kt">int</span> <span class="n">c</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="k">public</span> <span class="kt">int</span> <span class="nf">CountCells</span><span class="p">(</span><span class="kt">int</span><span class="p">[,]</span> <span class="n">pond</span><span class="p">,</span> <span class="kt">bool</span><span class="p">[,]</span> <span class="n">yetMarked</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r</span><span class="p">,</span> <span class="kt">int</span> <span class="n">c</span><span class="p">)</span>
 <span class="p">{</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">r</span> <span class="p">&gt;=</span> <span class="n">pond</span><span class="p">.</span><span class="n">GetLength</span><span class="p">(</span><span class="m">0</span><span class="p">)</span> <span class="p">||</span> <span class="n">r</span> <span class="p">&lt;</span> <span class="m">0</span> <span class="p">||</span>
         <span class="n">c</span> <span class="p">&gt;=</span> <span class="n">pond</span><span class="p">.</span><span class="n">GetLength</span><span class="p">(</span><span class="m">1</span><span class="p">)</span> <span class="p">||</span> <span class="n">c</span> <span class="p">&lt;</span> <span class="m">0</span><span class="p">)</span>
@@ -178,7 +178,7 @@ Il codice è venuto, ovviamente, <a class="reference external" href="https://git
 </div>
 <div class="section" id="stefano">
 <h3>Stefano</h3>
-<p>La <a class="reference external" href="https://github.com/TicinoXP/code-games/pull/5">soluzione di Stefano</a> (con tanto di build in Maven) si basa su questa idea: i pond sono numerati a partira da 1; si parte con tutte le celle non assegnate,quindi con pond a 0.</p>
+<p>La <a class="reference external" href="https://github.com/TicinoXP/code-games/pull/5">soluzione di Stefano</a> (con tanto di build in Maven) si basa su questa idea: i pond sono numerati a partire da 1; si parte con tutte le celle non assegnate,quindi con pond a 0.</p>
 <p>L'algoritmo, poi, cicla le celle con acqua, una per una: se la cella non è assegnata si tenta di far ereditare il numero pond dalle celle vicine, se almeno una di loro risulta assegnata; se anche queste non sono state ancora assegnate, si assegna la cella ad un nuovo pond.</p>
 <p>Stefano ha trovato dei casi un po' speciali, soprattutto con forme di pond particolarmente contorte, per cui può capitare che una cella non assegnata si trovi dei vicini assegnati a pond differenti: in questo caso, l'algoritmo riallinea i pond, fondendoli insieme.</p>
 </div>
@@ -192,7 +192,7 @@ Il codice è venuto, ovviamente, <a class="reference external" href="https://git
 <li>Quando si sono ciclati tutti gli stagni, gli stagni risultanti dalla fusione sono la soluzione.</li>
 </ul>
 <p>L'algoritmo non è molto efficiente, ma ha il vantaggio di essere molto compatto:</p>
-<div class="highlight"><pre><span class="k">private</span> <span class="kt">int</span> <span class="nf">CalculateSize</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="k">private</span> <span class="kt">int</span> <span class="nf">CalculateSize</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">)</span>
 <span class="p">{</span>
   <span class="k">return</span> <span class="nf">NeighborsOf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">).</span><span class="n">Aggregate</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="p">(</span><span class="n">current</span><span class="p">,</span> <span class="n">neighbor</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="n">current</span> <span class="p">+</span> <span class="n">CalculateSize</span><span class="p">(</span><span class="n">neighbor</span><span class="p">.</span><span class="n">X</span><span class="p">,</span> <span class="n">neighbor</span><span class="p">.</span><span class="n">Y</span><span class="p">));</span>
 <span class="p">}</span>
@@ -268,7 +268,7 @@ Il codice è venuto, ovviamente, <a class="reference external" href="https://git
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2017 TicinoXP
+         <div class="col-xs-10">&copy; 2018 TicinoXP
             &middot; Powered by Python <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>         </div>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
       </div>
