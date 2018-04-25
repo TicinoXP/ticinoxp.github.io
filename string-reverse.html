@@ -109,8 +109,85 @@
                 <p>Questa è una sfida che è venuta in mente ad <a class="reference external" href="http://github.com/ale7canna">Alessandro</a>: trovare modi alternativi, e possibilmente originali e divertenti, per calcolare l'inverso di una stringa.</p>
 <p>Tutto è consentito: puoi usare LINQ, magheggi con Excel, incastri di HTML e CSS, Lisp, Kotlin, C#, VBA. Vale anche ServiceNow. Anzi, se qualcuno riesce con ServiceNow vince una birra al giorno, per il resto della sua vita.</p>
 <p>Non importa che la soluzione sia efficiente o veloce: vince l'originalità.</p>
-<p>Come nel <a class="reference external" href="https://en.wikipedia.org/wiki/Boggle">Paroliere</a>, se due persone propongono la stessa soluzione, si scarta. E come nel Paroliere, non fermarti alla prima soluzione: manda  tutte quelle che ti vengono in mente a <a class="reference external" href="mailto:ticinoxp&#64;gmail.com">ticinoxp&#64;gmail.com</a>. Aspetta a pubblicarle con la solita pull request a <a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/README.md">https://github.com/TicinoXP/code-games</a>, le pubblichiamo tutte insieme!</p>
+<p>Come nel <a class="reference external" href="https://en.wikipedia.org/wiki/Boggle">Paroliere</a>, se due persone propongono la stessa soluzione, si scarta. E come nel Paroliere, non fermarti alla prima soluzione: manda  tutte quelle che ti vengono in mente a <a class="reference external" href="mailto:ticinoxp&#64;gmail.com">ticinoxp&#64;gmail.com</a>, o con pull request a <a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/README.md">https://github.com/TicinoXP/code-games</a>.</p>
 <p>Dai dai dai!</p>
+<div class="section" id="le-soluzioni">
+<h2>Le soluzioni</h2>
+<div class="section" id="con-task-and-queue-arialdo">
+<h3>Con Task and Queue (Arialdo)</h3>
+<p>Una prima soluzione prevede di riempire uno stack con le lettere della stringa, dalla prima all'ultima, per poi ricostruire la stringa con una serie di pop:</p>
+<div class="highlight"><pre><span></span><span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="nf">Reverse</span><span class="p">(</span><span class="kt">string</span> <span class="n">str</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">var</span> <span class="n">stack</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Stack</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;();</span>
+    <span class="n">str</span><span class="p">.</span><span class="n">ToList</span><span class="p">().</span><span class="n">ForEach</span><span class="p">(</span><span class="n">s</span> <span class="p">=&gt;</span> <span class="n">stack</span><span class="p">.</span><span class="n">Push</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">ToString</span><span class="p">()));</span>
+    <span class="k">return</span> <span class="n">stack</span><span class="p">.</span><span class="n">ToList</span><span class="p">().</span><span class="n">Aggregate</span><span class="p">((</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="n">a</span> <span class="p">+</span> <span class="n">b</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="section" id="con-una-funzione-ricorsiva-in-haskell-alessandro">
+<h3>Con una funzione ricorsiva in Haskell (Alessandro)</h3>
+<p>Alessandro ha risolto con una funzione ricorsiva, in Haskell:</p>
+<div class="highlight"><pre><span></span><span class="nf">reverseString</span> <span class="n">x</span> <span class="ow">=</span>
+  <span class="kr">if</span> <span class="n">null</span> <span class="n">x</span>
+  <span class="kr">then</span>
+    <span class="kt">[]</span>
+  <span class="kr">else</span>
+    <span class="n">reverseString</span> <span class="p">(</span><span class="n">tail</span> <span class="n">x</span><span class="p">)</span> <span class="o">++</span> <span class="p">[</span><span class="n">head</span> <span class="n">x</span><span class="p">]</span>
+</pre></div>
+<p>Ecco una versione simile, con pattern matching:</p>
+<div class="highlight"><pre><span></span><span class="nf">reverseString</span> <span class="n">x</span> <span class="ow">=</span>
+  <span class="kr">if</span> <span class="n">null</span> <span class="n">x</span>
+  <span class="kr">then</span>
+    <span class="kt">[]</span>
+  <span class="kr">else</span>
+    <span class="n">reverseString</span> <span class="p">(</span><span class="n">tail</span> <span class="n">x</span><span class="p">)</span> <span class="o">++</span> <span class="p">[</span><span class="n">head</span> <span class="n">x</span><span class="p">]</span>
+</pre></div>
+</div>
+<div class="section" id="con-una-funzione-ricorsiva-in-c-emanuele">
+<h3>Con una funzione ricorsiva, in C# (Emanuele)</h3>
+<p>Emanuele ha trovato una soluzione simile, stavolta sviluppata in C#, ricorsiva e senza cicli:</p>
+<div class="highlight"><pre><span></span><span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="nf">Invert</span><span class="p">(</span><span class="kt">string</span> <span class="n">s</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">s</span><span class="p">;</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">Length</span> <span class="p">==</span> <span class="m">1</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">s</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="n">s</span><span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">Length</span> <span class="p">-</span> <span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">)</span> <span class="p">+</span> <span class="n">Invert</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">s</span><span class="p">.</span><span class="n">Length</span> <span class="p">-</span> <span class="m">1</span><span class="p">));</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="section" id="incomprensibilmente-complessa-emanuele">
+<h3>Incomprensibilmente complessa (Emanuele)</h3>
+<p>Da buon matematico, Emanuele propone questa seconda soluzione, che suona davvero criptica:
+passa dalla conversione in byte e fa magheggi con gli indici degli array:</p>
+<div class="highlight"><pre><span></span><span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="nf">Invert</span><span class="p">(</span><span class="kt">string</span> <span class="n">s</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">s</span><span class="p">;</span>
+
+    <span class="kt">var</span> <span class="n">array</span> <span class="p">=</span> <span class="n">System</span><span class="p">.</span><span class="n">Text</span><span class="p">.</span><span class="n">Encoding</span><span class="p">.</span><span class="n">ASCII</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">s</span><span class="p">);</span>
+    <span class="kt">var</span> <span class="n">l</span> <span class="p">=</span> <span class="n">array</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span>
+
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">l</span> <span class="p">/</span> <span class="m">2</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+    <span class="p">{</span>
+        <span class="kt">var</span> <span class="n">diff</span> <span class="p">=</span> <span class="n">array</span><span class="p">[</span><span class="n">l</span> <span class="p">-</span> <span class="n">i</span> <span class="p">-</span><span class="m">1</span><span class="p">]</span> <span class="p">-</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+        <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">=</span> <span class="n">System</span><span class="p">.</span><span class="n">Convert</span><span class="p">.</span><span class="n">ToByte</span><span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">+</span> <span class="n">diff</span><span class="p">);</span>
+        <span class="n">array</span><span class="p">[</span><span class="n">l</span> <span class="p">-</span> <span class="n">i</span> <span class="p">-</span><span class="m">1</span><span class="p">]</span> <span class="p">=</span> <span class="n">System</span><span class="p">.</span><span class="n">Convert</span><span class="p">.</span><span class="n">ToByte</span><span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">l</span> <span class="p">-</span> <span class="n">i</span> <span class="p">-</span><span class="m">1</span><span class="p">]</span> <span class="p">-</span> <span class="n">diff</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="n">System</span><span class="p">.</span><span class="n">Text</span><span class="p">.</span><span class="n">Encoding</span><span class="p">.</span><span class="n">Default</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">array</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="section" id="one-liner-in-linq-emanuele">
+<h3>One liner in LINQ (Emanuele)</h3>
+<p>Una terza soluzione di Emanuele, in una sola riga di LINQ, con approccio funzionale puro:</p>
+<div class="highlight"><pre><span></span><span class="n">String</span><span class="p">.</span><span class="n">Concat</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="n">Linq</span><span class="p">.</span><span class="n">Enumerable</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">s</span><span class="p">.</span><span class="n">Length</span><span class="p">)</span>
+              <span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">s</span><span class="p">.</span><span class="n">ToArray</span><span class="p">()[</span><span class="n">s</span><span class="p">.</span><span class="n">Length</span> <span class="p">-</span> <span class="m">1</span> <span class="p">-</span> <span class="n">x</span><span class="p">]).</span><span class="n">ToList</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
 
             </div>
             <!-- /.entry-content -->
