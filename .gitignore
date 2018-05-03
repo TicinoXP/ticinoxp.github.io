@@ -11,5 +11,5 @@ package.json
 cache/
 *.pyc
 *.pid
-venv/**
+src/venv/**
 src/output/**
