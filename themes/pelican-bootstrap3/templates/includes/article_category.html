@@ -1,0 +1,5 @@
+{% if SHOW_ARTICLE_CATEGORY %}
+    <p>
+        <a class="btn {{ 'btn-info' if article.category == 'Code Games' else 'btn-default' }} btn-xs" href="{{ SITEURL }}/category/{{ article.category }}">{{ article.category }}</a>
+    </p>
+{% endif %}

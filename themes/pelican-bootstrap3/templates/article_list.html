@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+{% if articles %}
+{% for article in (articles_page.object_list if articles_page else articles) %}
+<article>
+    {% include "includes/article_category.html" %}
+    <h2>
+        <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+    </h2>
+    {% include "includes/article_info.html" %}
+    <br />
+    <div class="summary">
+        <p>
+            {{ article.sommario }}
+        </p>
+
+            </div>
+         </article>
+         <hr/>
+    {% endfor %}
+{% endif %}
+
+{% include 'includes/pagination.html' %}
+{% endblock content %}
