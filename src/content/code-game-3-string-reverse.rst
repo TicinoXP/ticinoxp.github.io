@@ -230,3 +230,11 @@ Brutto, ma funziona:
         .Select(kv => kv.Value));
     }
 
+
+
+Service Now!!! (Emanuele e Stefano)
+-----------------------------------
+
+E una birra al giorno, vita natural durante, a Emanuele e Stefano!
+
+.. image:: images/game-3-reverse-string/snow.jpg
