@@ -80,6 +80,28 @@ Emanuele ha trovato indipendentemente la stessa soluzione, e l'ha sviluppata in 
         return s.Substring(s.Length - 1, 1) + Invert(s.Substring(0, s.Length - 1));
     }
 
+Lisp (Arialdo)
+--------------
+
+Ed ecco lo stesso identico algoritmo, in Scheme:
+
+.. code-block:: scheme
+
+    (define (revs s)
+      (cond ((null? s) ())
+            (else (append
+                   (revs (cdr s))
+                   (list (car s))))))
+
+
+    (display
+     (list->string
+      (revs (string->list "ciao mamma, guarda come mi diverto"))))
+    (newline)
+
+
+
+
 
 Incomprensibilmente complessa (Emanuele)
 ----------------------------------------
@@ -207,24 +229,4 @@ Brutto, ma funziona:
         .OrderByDescending(kv => kv.Key)
         .Select(kv => kv.Value));
     }
-
-Lisp! (Arialdo)
----------------
-
-Ed eccolo in Scheme:
-
-.. code-block:: scheme
-
-    (define (revs s)
-      (cond ((null? s) ())
-            (else (append
-                   (revs (cdr s))
-                   (list (car s))))))
-
-
-    (display
-     (list->string
-      (revs (string->list "ciao mamma, guarda come mi diverto"))))
-    (newline)
-
 
