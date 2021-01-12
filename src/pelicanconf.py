@@ -41,7 +41,8 @@ LINKS = (('Code Games Repo', 'http://github.com/ticinoxp/code-games'),
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/ticinoxp'),
           ('github', 'http://github.com/ticinoxp'),
-          ('reddit', 'http://reddit.com/r/TicinoXP'))
+          ('reddit', 'http://reddit.com/r/TicinoXP'),
+          ('google group' , 'https://groups.google.com/g/ticinoxp'))
 
 DEFAULT_PAGINATION = False
 
