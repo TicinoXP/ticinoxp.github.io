@@ -13,6 +13,9 @@ Ciao a tutti!
 
 Con Angelo Monachesi abbiamo pensato di organizzare un gruppo di lettura del libro `Functional Programming in C# <https://www.manning.com/books/functional-programming-in-c-sharp>`_ di Enrico Buonanno.
 
+
+.. image:: images/functional-programming/buonanno.png
+
 L'idea è darci dei piccoli obiettivi (niente di troppo impegnativo, uno o due capitoli al mese), e poi di incontrarci (online) ogni 2 o 3 settimane, per vedere di mettere in pratica quel che abbiamo imparato.
 
 Gli incontri non saranno lezioni frontali: ci ritroviamo per confrontarci su quel che abbiamo letto e per mettere in pratica le tecniche che abbiamo imparato.
