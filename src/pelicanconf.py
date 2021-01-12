@@ -42,7 +42,7 @@ LINKS = (('Code Games Repo', 'http://github.com/ticinoxp/code-games'),
 SOCIAL = (('twitter', 'http://twitter.com/ticinoxp'),
           ('github', 'http://github.com/ticinoxp'),
           ('reddit', 'http://reddit.com/r/TicinoXP'),
-          ('google group' , 'https://groups.google.com/g/ticinoxp'))
+          ('google groups' , 'https://groups.google.com/g/ticinoxp'))
 
 DEFAULT_PAGINATION = False
 
