@@ -27,7 +27,7 @@ Partecipare
 
 Ok, cosa devi fare se vuoi partecipare:
 
-* Iscriviti inviando un messaggio a ticinoxp@gmail.com: nei prossimi giorni fisseremo gli argomenti e gli obietivi per il primo incotro
+* Iscriviti inviando un messaggio a ticinoxp@gmail.com: nei prossimi giorni fisseremo gli argomenti e gli obietivi per il primo incontro
 
 * Apri `il doodle <https://doodle.com/poll/cp4b2acyzv5f6pq6>`_ e indica tutte le date che possono andarti bene. Fisseremo il primo incontro alla data che dovesse risultare la più votata.
 
