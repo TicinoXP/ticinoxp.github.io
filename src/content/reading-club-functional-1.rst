@@ -3,7 +3,7 @@ Reading Club - Functional Programming in C# - Incontro 1
 
 :date: 2021-01-11 08:30
 :tags: reading-club
-:category: Functional Programming
+:category: Reading Club
 :slug: functional-programming-1
 :authors: Arialdo Martini
 :organizer: Arialdo Martini
