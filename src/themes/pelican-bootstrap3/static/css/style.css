@@ -167,3 +167,9 @@ figure.floatcenter, .align-center {
 body div.container .row {
     margin-top: 3em;
 }
+
+
+#content li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

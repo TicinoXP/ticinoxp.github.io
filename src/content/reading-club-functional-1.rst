@@ -26,13 +26,16 @@ Ok, cosa devi fare se vuoi partecipare:
 
 * Apri `il doodle <https://doodle.com/poll/cp4b2acyzv5f6pq6>`_ e indica tutte le date che possono andarti bene. Fisseremo il primo incontro alla data che dovesse risultare la più votata.
 
+  
 * Se vuoi essere aggiunto al gruppo WhatsApp, manda un messaggio a ticinoxp@gmail.com
 
+  
 * Procurati una copia stampata o eBook di `Functional Programming in C# <https://www.manning.com/books/functional-programming-in-c-sharp>`_:
 
   * Su `Manning <https://www.manning.com/books/functional-programming-in-c-sharp>`_
   * Su `IBS.it <https://www.ibs.it/functional-programming-in-c-how-libro-inglese-enrico-buonanno/e/9781617293955>`_
 
+    
 * Se hai domande, o se vuoi discutere di un argomento, usa liberamente `la sezione Discussions <https://github.com/TicinoXP/functional-programmin-in-csharp/discussions>`_ del repository `TicinoXP/functional-programmin-in-csharp <https://github.com/TicinoXP/functional-programmin-in-csharp>`_.
 
 A presto!
