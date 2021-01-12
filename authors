@@ -2,7 +2,7 @@
 <html lang="it"
 >
 <head>
-    <title>Categories - TicinoXP</title>
+    <title>Authors - TicinoXP</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -75,59 +75,14 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <ol class="breadcrumb">
-        <li><a href="." title="TicinoXP"><i class="fa fa-home fa-lg"></i></a></li>
-        <li class="active">Categories</li>
-    </ol>
+        <ol class="breadcrumb">
+            <li><a href="." title="TicinoXP"><i class="fa fa-home fa-lg"></i></a></li>
+            <li class="active">Authors</li>
+        </ol>
 
-    <section id="categories">
-        <h1>All Categories for TicinoXP</h1>
-        <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-code-games">Code Games <span class="badge pull-right">3</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-code-games" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2018-04-23T22:00:00+02:00">Mon 23 April 2018</time></span> <a href="./string-reverse">#3 - String reverse</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2017-09-19T10:00:00+02:00">Tue 19 September 2017</time></span> <a href="./pond-sizes">#2 - Pond Sizes</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2017-09-19T08:30:00+02:00">Tue 19 September 2017</time></span> <a href="./maggiore-senza-comparatori">#1 - Il maggiore di due numeri, senza comparatori</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-meetup">Meetup <span class="badge pull-right">5</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-meetup" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2021-01-11T08:30:00+01:00">Mon 11 January 2021</time></span> <a href="./arte-perduta-del-tdd">L'arte perduta del TDD</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2016-03-11T19:00:00+01:00">Fri 11 March 2016</time></span> <a href="./sblendorio">PerchÃ© l'encoding Ã¨ importante?</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2015-02-24T19:00:00+01:00">Tue 24 February 2015</time></span> <a href="./randori1">Randori in C#</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2015-01-27T19:00:00+01:00">Tue 27 January 2015</time></span> <a href="./kata1">C# Code Kata</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2014-01-07T19:30:00+01:00">Tue 07 January 2014</time></span> <a href="./HelloWorld">Incontro Zero</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-reading-club">Reading Club <span class="badge pull-right">1</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-reading-club" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2021-01-11T08:30:00+01:00">Mon 11 January 2021</time></span> <a href="./functional-programming-1">Reading Club - Functional Programming in C#</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
+    <h1>Authors on TicinoXP</h1>
+        <li><a href="./author/alessandro-canicatti">Alessandro Canicatti</a> (1)</li>
+        <li><a href="./author/arialdo-martini">Arialdo Martini</a> (8)</li>
         </div>
         <div class="col-sm-3 well well-sm" id="sidebar">
 

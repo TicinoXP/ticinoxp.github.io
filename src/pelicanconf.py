@@ -31,6 +31,21 @@ SHOW_ARTICLE_CATEGORY = True
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_PAGES_ON_MENU = True
 
+
+
+PAGE_URL = "{slug}"
+PAGE_SAVE_AS = "{slug}.html"
+CATEGORY_URL = "{slug}"
+CATEGORY_SAVE_AS = "{slug}.html"
+ARTICLE_URL = "{slug}"
+ARTICLE_SAVE_AS = "{slug}.html"
+TAG_URL = "tag/{slug}"
+TAG_SAVE_AS = "tag/{name}.html"
+AUTHORS_SAVE_AS = "authors"
+AUTHOR_SAVE_AS = "author/{slug}.html"
+AUTHOR_URL = "author/{slug}"
+ARCHIVES_SAVE_AS = "archives.html"
+
 # Blogroll
 LINKS = (('Code Games Repo', 'http://github.com/ticinoxp/code-games'),
 
