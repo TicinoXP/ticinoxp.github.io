@@ -18,7 +18,7 @@ Emanuele ha già tenuto questo talk `in un paio di occasioni <https://blog.codic
 Stavolta, però, ci piacerebbe che l'incontro fosse più interattivo e meno formale. E ci piacerebbe profittarne più per discutere che per imparare TDD.
 
 
-Implementeremo il `Birtday Greetings Kata <http://matteo.vaccari.name/blog/archives/154>`_ di Matteo Vaccari. Probabilmente useremo JavaScript, ma un linguaggio vale l'altro: il focus non sarà sul linguaggio, ma sul design.
+Implementeremo il `Birthday Greetings Kata <http://matteo.vaccari.name/blog/archives/154>`_ di Matteo Vaccari. Probabilmente useremo JavaScript, ma un linguaggio vale l'altro: il focus non sarà sul linguaggio, ma sul design.
 
 
 L'evento è gratuito e in italiano.
