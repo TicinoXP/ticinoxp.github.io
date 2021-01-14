@@ -24,7 +24,7 @@ Implementeremo il `Birthday Greetings Kata <http://matteo.vaccari.name/blog/arch
 L'evento è gratuito e in italiano.
 
 
-- **Quando**: giovedì 19 gennaio 2021, alle 18:00
+- **Quando**: giovedì 21 gennaio 2021, alle 18:00
 
 - **Dove**: online, con Jitsi, su `https://meet.jit.si/arte-perduta-del-tdd <https://meet.jit.si/arte-perduta-del-tdd>`_.
 
