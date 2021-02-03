@@ -13,7 +13,7 @@ Ci siamo! È il momento di fissare il primo incontro per il nostro `Reading Club
 
 Il `doodle <https://doodle.com/poll/cp4b2acyzv5f6pq6>`_ indica che la data più votata sia **mercoledì 3 febbraio**. E mercoledì sia!
 
-Tra oggi e domani pubblicherò sulla pagina delle `Discussions <https://github.com/TicinoXP/functional-programmin-in-csharp/discussions>`_ un po' di problemi, tutti basati sul capitolo 1. Mercoledì sceglieremo insieme quali risolvere.
+Tra oggi e domani pubblicherò sulla pagina delle `Discussions <https://github.com/TicinoXP/functional-programming-in-csharp/discussions>`_ un po' di problemi, tutti basati sul capitolo 1. Mercoledì sceglieremo insieme quali risolvere.
 
 Pronti?
 

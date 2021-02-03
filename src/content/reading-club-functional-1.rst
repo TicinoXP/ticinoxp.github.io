@@ -41,7 +41,7 @@ Ok, cosa devi fare se vuoi partecipare:
   * Su `IBS.it <https://www.ibs.it/functional-programming-in-c-how-libro-inglese-enrico-buonanno/e/9781617293955>`_.
 
     
-* Se hai domande, o se vuoi discutere di un argomento, usa liberamente `la sezione Discussions <https://github.com/TicinoXP/functional-programmin-in-csharp/discussions>`_ del repository `su GitHub <https://github.com/TicinoXP/functional-programmin-in-csharp>`_.
+* Se hai domande, o se vuoi discutere di un argomento, usa liberamente `la sezione Discussions <https://github.com/TicinoXP/functional-programming-in-csharp/discussions>`_ del repository `su GitHub <https://github.com/TicinoXP/functional-programmin-in-csharp>`_.
 
 * Se vuoi restare aggiornato puoi iscriverti alla `mailing list <https://groups.google.com/g/ticinoxp>`_
   
