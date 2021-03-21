@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>/</id><updated>2021-02-27T08:30:00+00:00</updated><entry><title>Reading Club - Functional Programming in C# - Sessione 3</title><link href="/functional-programming-sessione-3.html" rel="alternate"></link><published>2021-02-27T08:30:00+00:00</published><updated>2021-02-27T08:30:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2021-02-27:/functional-programming-sessione-3.html</id><summary type="html">&lt;p&gt;I primi 2 capitoli erano più o meno introduttivi. A partire dal capitolo 3, fa capolino un argomento bello tosto: i funtori.&lt;/p&gt;
+&lt;p&gt;Buonanno è bravo e la prende molto alla larga, per cui l'impatto non è drammatico. Vedrete che il capitolo 3 parte parlando di signature e tipizzazione forte, e …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I primi 2 capitoli erano più o meno introduttivi. A partire dal capitolo 3, fa capolino un argomento bello tosto: i funtori.&lt;/p&gt;
+&lt;p&gt;Buonanno è bravo e la prende molto alla larga, per cui l'impatto non è drammatico. Vedrete che il capitolo 3 parte parlando di signature e tipizzazione forte, e si chiude introducendo senza grandi traumi il tema del trattamento dell'assenza di valori.&lt;/p&gt;
+&lt;p&gt;È un argomento super hot in functional programming, e vi consentirà di eliminare dal vostro codice i null, e insieme ai null il codice difensivo costruito con if/then/else, guardie e try/catch.&lt;/p&gt;
+&lt;p&gt;Vi proporrei questo: ci leggiamo il capitolo 3 e poi ci organizziamo sopra 2 sessioni&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;la prima su LINQ, che tutti già conosciamo: l'idea è di fare una serie di piccoli esercizi (stavolta il codice lo scrivete voi!)  per prendere la mano con i funtori (senza sapere di usarli)&lt;/li&gt;
+&lt;li&gt;la seconda, per fare un esercizio che ci condurrà a re-inventare il funtore Option, che è l'ultimo argomento del capitolo 3. Per questo esercizio, userei un adattamento di un kata di Matteo Baglini, originariamente pensato per Scala&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Penso che ce la possiamo prendere comoda e vederci nella terza settimana di marzo. Che ne dite?&lt;/p&gt;
+&lt;p&gt;Ecco il doodle per fissare il giorno: &lt;a class="reference external" href="https://doodle.com/poll/nrrwnaxyuuvznudr"&gt;doodle&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;ciao!&lt;/p&gt;
+</content><category term="Reading Club"></category><category term="reading-club"></category></entry><entry><title>Reading Club - Functional Programming in C# - Sessione 2</title><link href="/functional-programming-sessione-2.html" rel="alternate"></link><published>2021-02-15T08:30:00+00:00</published><updated>2021-02-15T08:30:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2021-02-15:/functional-programming-sessione-2.html</id><summary type="html">&lt;p&gt;E dopo un po' di riposo, organizziamo la seconda sessione.&lt;/p&gt;
+&lt;p&gt;Ci diamo l'obiettivo di leggere il capitolo 2? Nei prossimi giorni, publicherò sulla pagina &lt;a class="reference external" href="https://github.com/TicinoXP/functional-programming-in-csharp/discussions"&gt;Discussions&lt;/a&gt; nuovi esercizi.&lt;/p&gt;
+&lt;p&gt;Indicate pure una data usando il &lt;a class="reference external" href="https://doodle.com/poll/cf48nsua5cfhnfy9"&gt;doodle&lt;/a&gt;. Ho provato ad anticipare l'orario per evitare di avere la sessione a ridosso della cena: se …&lt;/p&gt;</summary><content type="html">&lt;p&gt;E dopo un po' di riposo, organizziamo la seconda sessione.&lt;/p&gt;
+&lt;p&gt;Ci diamo l'obiettivo di leggere il capitolo 2? Nei prossimi giorni, publicherò sulla pagina &lt;a class="reference external" href="https://github.com/TicinoXP/functional-programming-in-csharp/discussions"&gt;Discussions&lt;/a&gt; nuovi esercizi.&lt;/p&gt;
+&lt;p&gt;Indicate pure una data usando il &lt;a class="reference external" href="https://doodle.com/poll/cf48nsua5cfhnfy9"&gt;doodle&lt;/a&gt;. Ho provato ad anticipare l'orario per evitare di avere la sessione a ridosso della cena: se non dovesse andare bene, fatemelo sapere!&lt;/p&gt;
+</content><category term="Reading Club"></category><category term="reading-club"></category></entry><entry><title>Reading Club - Functional Programming in C# - Sessione 1</title><link href="/functional-programming-sessione-1.html" rel="alternate"></link><published>2021-01-24T08:30:00+00:00</published><updated>2021-01-24T08:30:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2021-01-24:/functional-programming-sessione-1.html</id><summary type="html">&lt;p&gt;Ci siamo! È il momento di fissare il primo incontro per il nostro &lt;a class="reference external" href="/functional-programming-1"&gt;Reading Club su Functnal Programming in C#&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Il &lt;a class="reference external" href="https://doodle.com/poll/cp4b2acyzv5f6pq6"&gt;doodle&lt;/a&gt; indica che la data più votata sia &lt;strong&gt;mercoledì 3 febbraio&lt;/strong&gt;. E mercoledì sia!&lt;/p&gt;
+&lt;p&gt;Tra oggi e domani pubblicherò sulla pagina delle &lt;a class="reference external" href="https://github.com/TicinoXP/functional-programming-in-csharp/discussions"&gt;Discussions&lt;/a&gt; un po' di problemi, tutti basati …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ci siamo! È il momento di fissare il primo incontro per il nostro &lt;a class="reference external" href="/functional-programming-1"&gt;Reading Club su Functnal Programming in C#&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Il &lt;a class="reference external" href="https://doodle.com/poll/cp4b2acyzv5f6pq6"&gt;doodle&lt;/a&gt; indica che la data più votata sia &lt;strong&gt;mercoledì 3 febbraio&lt;/strong&gt;. E mercoledì sia!&lt;/p&gt;
+&lt;p&gt;Tra oggi e domani pubblicherò sulla pagina delle &lt;a class="reference external" href="https://github.com/TicinoXP/functional-programming-in-csharp/discussions"&gt;Discussions&lt;/a&gt; un po' di problemi, tutti basati sul capitolo 1. Mercoledì sceglieremo insieme quali risolvere.&lt;/p&gt;
+&lt;p&gt;Pronti?&lt;/p&gt;
+&lt;div class="section" id="partecipare"&gt;
+&lt;h2&gt;Partecipare&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Quando&lt;/strong&gt;: mercoledì 3 febbraio 2021, alle 17:30&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dove&lt;/strong&gt;: online, con Jitsi, su &lt;a class="reference external" href="https://meet.jit.si/functional-programming-in-csharp"&gt;https://meet.jit.si/functional-programming-in-csharp&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Iscrizione&lt;/strong&gt;: non è necessaria.&lt;/li&gt;
+&lt;li&gt;Come sempre, l'evento è gratuito e in italiano.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A presto!&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Reading Club"></category><category term="reading-club"></category></entry><entry><title>L'arte perduta del TDD - Sessione 2</title><link href="/arte-perduta-del-tdd-2.html" rel="alternate"></link><published>2021-01-22T08:30:00+00:00</published><updated>2021-01-22T08:30:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2021-01-22:/arte-perduta-del-tdd-2.html</id><summary type="html">&lt;p&gt;Nel primo incontro abbiamo messo a confronto due tipi diversi di approcci outside-in. Ne ha fatto un &lt;a class="reference external" href="https://www.linkedin.com/feed/update/urn:li:activity:6758300129939214336/"&gt;piccolo resoconto&lt;/a&gt; Emanuele su LinkedIn.&lt;/p&gt;
+&lt;p&gt;Uno dei temi che è emerso in una chiacchierata a margine con Gian Carlo Pace è che gli approcci outside-in e inside-out potrebbero essere contemporaneamente applicabili alla stessa …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Nel primo incontro abbiamo messo a confronto due tipi diversi di approcci outside-in. Ne ha fatto un &lt;a class="reference external" href="https://www.linkedin.com/feed/update/urn:li:activity:6758300129939214336/"&gt;piccolo resoconto&lt;/a&gt; Emanuele su LinkedIn.&lt;/p&gt;
+&lt;p&gt;Uno dei temi che è emerso in una chiacchierata a margine con Gian Carlo Pace è che gli approcci outside-in e inside-out potrebbero essere contemporaneamente applicabili alla stessa code base, in un'ottica hexahonal, l'uno nel core e l'altro negli adapter. Potrebbe essere un tema interessante da esplorare. Ma, di nuovo: ci interessa più discutere di design che completare il Kata in sé.&lt;/p&gt;
+&lt;p&gt;Ci troviamo di nuovo mercoledì 27 gennaio 2021, sempre alle 18:00 e sempre su &lt;a class="reference external" href="https://meet.jit.si/arte-perduta-del-tdd"&gt;Jitsi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Come sempre, l'evento è gratuito e in italiano.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Quando&lt;/strong&gt;: mercoledì 27 gennaio 2021, alle 18:00&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dove&lt;/strong&gt;: online, con Jitsi, su &lt;a class="reference external" href="https://meet.jit.si/arte-perduta-del-tdd"&gt;https://meet.jit.si/arte-perduta-del-tdd&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="Meetup"></category><category term="tdd"></category></entry><entry><title>L'arte perduta del TDD</title><link href="/arte-perduta-del-tdd.html" rel="alternate"></link><published>2021-01-11T08:30:00+00:00</published><updated>2021-01-11T08:30:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2021-01-11:/arte-perduta-del-tdd.html</id><summary type="html">&lt;p&gt;È tantissimo tempo che non ci ritroviamo per fare una sessione di live coding.&lt;/p&gt;
+&lt;p&gt;Ci piacerebbe ripartire ripropondo un Kata su TDD, con Emanuele DelBono, Founder e Software Architect di &lt;a class="reference external" href="https://codiceplastico.com/"&gt;CodicePlastico&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Emanuele ha già tenuto questo talk &lt;a class="reference external" href="https://blog.codiceplastico.com/test-driven-development-live-session"&gt;in un paio di occasioni&lt;/a&gt; (è anche disponibile una &lt;a class="reference external" href="https://www.youtube.com/watch?v=c9F1w87VIAQ&amp;amp;feature=emb_title"&gt;registrazione video&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Stavolta, però …&lt;/p&gt;</summary><content type="html">&lt;p&gt;È tantissimo tempo che non ci ritroviamo per fare una sessione di live coding.&lt;/p&gt;
+&lt;p&gt;Ci piacerebbe ripartire ripropondo un Kata su TDD, con Emanuele DelBono, Founder e Software Architect di &lt;a class="reference external" href="https://codiceplastico.com/"&gt;CodicePlastico&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Emanuele ha già tenuto questo talk &lt;a class="reference external" href="https://blog.codiceplastico.com/test-driven-development-live-session"&gt;in un paio di occasioni&lt;/a&gt; (è anche disponibile una &lt;a class="reference external" href="https://www.youtube.com/watch?v=c9F1w87VIAQ&amp;amp;feature=emb_title"&gt;registrazione video&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Stavolta, però, ci piacerebbe che l'incontro fosse più interattivo e meno formale. E ci piacerebbe profittarne più per discutere che per imparare TDD.&lt;/p&gt;
+&lt;p&gt;Implementeremo il &lt;a class="reference external" href="http://matteo.vaccari.name/blog/archives/154"&gt;Birthday Greetings Kata&lt;/a&gt; di Matteo Vaccari. Probabilmente useremo JavaScript, ma un linguaggio vale l'altro: il focus non sarà sul linguaggio, ma sul design.&lt;/p&gt;
+&lt;p&gt;L'evento è gratuito e in italiano.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Quando&lt;/strong&gt;: giovedì 21 gennaio 2021, alle 18:00&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dove&lt;/strong&gt;: online, con Jitsi, su &lt;a class="reference external" href="https://meet.jit.si/arte-perduta-del-tdd"&gt;https://meet.jit.si/arte-perduta-del-tdd&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Iscrizione&lt;/strong&gt;: non è necessaria. Se vuoi, conferma la presenza inviando una mail a &lt;a class="reference external" href="mailto:ticinoxp&amp;#64;gmail.com"&gt;ticinoxp&amp;#64;gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content><category term="Meetup"></category><category term="tdd"></category></entry><entry><title>Reading Club - Functional Programming in C#</title><link href="/functional-programming-1.html" rel="alternate"></link><published>2021-01-11T08:30:00+00:00</published><updated>2021-01-11T08:30:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2021-01-11:/functional-programming-1.html</id><summary type="html">&lt;p&gt;Ciao a tutti!&lt;/p&gt;
+&lt;p&gt;Con Angelo Monachesi abbiamo pensato di organizzare un gruppo di lettura del libro &lt;a class="reference external" href="https://www.manning.com/books/functional-programming-in-c-sharp"&gt;Functional Programming in C#&lt;/a&gt; di Enrico Buonanno.&lt;/p&gt;
+&lt;img alt="" src="images/functional-programming/buonanno.png" /&gt;
+&lt;p&gt;L'idea è darci dei piccoli obiettivi (niente di troppo impegnativo, uno o due capitoli al mese), e poi di incontrarci (online) ogni 2 o 3 settimane, per …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ciao a tutti!&lt;/p&gt;
+&lt;p&gt;Con Angelo Monachesi abbiamo pensato di organizzare un gruppo di lettura del libro &lt;a class="reference external" href="https://www.manning.com/books/functional-programming-in-c-sharp"&gt;Functional Programming in C#&lt;/a&gt; di Enrico Buonanno.&lt;/p&gt;
+&lt;img alt="" src="images/functional-programming/buonanno.png" /&gt;
+&lt;p&gt;L'idea è darci dei piccoli obiettivi (niente di troppo impegnativo, uno o due capitoli al mese), e poi di incontrarci (online) ogni 2 o 3 settimane, per vedere di mettere in pratica quel che abbiamo imparato.&lt;/p&gt;
+&lt;p&gt;Gli incontri non saranno lezioni frontali: ci ritroviamo per confrontarci su quel che abbiamo letto e per mettere in pratica le tecniche che abbiamo imparato.&lt;/p&gt;
+&lt;p&gt;Per rendere gli incontri concreti, ogni volta ci faremo trovare con qualche bel problema sul quale sfidarci, hands-on-code, e con il quale mettee in esercizio le varie tecniche: immutability, funtori, monoidi, monadi, memoization etc.&lt;/p&gt;
+&lt;div class="section" id="partecipare"&gt;
+&lt;h2&gt;Partecipare&lt;/h2&gt;
+&lt;p&gt;Ok, cosa devi fare se vuoi partecipare:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Iscriviti inviando un messaggio a &lt;a class="reference external" href="mailto:ticinoxp&amp;#64;gmail.com"&gt;ticinoxp&amp;#64;gmail.com&lt;/a&gt;: nei prossimi giorni fisseremo gli argomenti e gli obietivi per il primo incontro&lt;/li&gt;
+&lt;li&gt;Apri &lt;a class="reference external" href="https://doodle.com/poll/cp4b2acyzv5f6pq6"&gt;il doodle&lt;/a&gt; e indica tutte le date che possono andarti bene. Fisseremo il primo incontro alla data che dovesse risultare la più votata.&lt;/li&gt;
+&lt;li&gt;Se vuoi essere aggiunto al gruppo WhatsApp, invia il tuo numero nel messaggio a &lt;a class="reference external" href="mailto:ticinoxp&amp;#64;gmail.com"&gt;ticinoxp&amp;#64;gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Procurati una copia stampata o eBook di &lt;a class="reference external" href="https://www.manning.com/books/functional-programming-in-c-sharp"&gt;Functional Programming in C#&lt;/a&gt;:&lt;ul&gt;
+&lt;li&gt;Su &lt;a class="reference external" href="https://www.manning.com/books/functional-programming-in-c-sharp"&gt;Manning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Su &lt;a class="reference external" href="https://www.ibs.it/functional-programming-in-c-how-libro-inglese-enrico-buonanno/e/9781617293955"&gt;IBS.it&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Se hai domande, o se vuoi discutere di un argomento, usa liberamente &lt;a class="reference external" href="https://github.com/TicinoXP/functional-programming-in-csharp/discussions"&gt;la sezione Discussions&lt;/a&gt; del repository &lt;a class="reference external" href="https://github.com/TicinoXP/functional-programmin-in-csharp"&gt;su GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Se vuoi restare aggiornato puoi iscriverti alla &lt;a class="reference external" href="https://groups.google.com/g/ticinoxp"&gt;mailing list&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A presto!&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Reading Club"></category><category term="reading-club"></category></entry><entry><title>First article</title><link href="/first-article.html" rel="alternate"></link><published>2018-11-10T00:00:00+00:00</published><updated>2018-11-10T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2018-11-10:/first-article.html</id><summary type="html">&lt;p class="first last"&gt;Here's the &lt;a class="reference external" href="{filename}/second-article.rst"&gt;second&lt;/a&gt;,
+&lt;a class="reference external" href="{filename}/third-article.rst"&gt;third&lt;/a&gt; and a
+&lt;a class="reference external" href="{filename}/nonexistent.rst"&gt;nonexistent article&lt;/a&gt;.&lt;/p&gt;
+</summary><content type="html"></content><category term="cyclic_intersite_links"></category></entry><entry><title>Second article</title><link href="/second-article.html" rel="alternate"></link><published>2018-11-10T00:00:00+00:00</published><updated>2018-11-10T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2018-11-10:/second-article.html</id><summary type="html">&lt;p class="first last"&gt;Here's the &lt;a class="reference external" href="{filename}/first-article.rst"&gt;first&lt;/a&gt;,
+&lt;a class="reference external" href="{filename}/third-article.rst"&gt;third&lt;/a&gt; and a
+&lt;a class="reference external" href="{filename}/nonexistent.rst"&gt;nonexistent article&lt;/a&gt;.&lt;/p&gt;
+</summary><content type="html"></content><category term="cyclic_intersite_links"></category></entry><entry><title>Third article</title><link href="/third-article.html" rel="alternate"></link><published>2018-11-10T00:00:00+00:00</published><updated>2018-11-10T00:00:00+00:00</updated><author><name></name></author><id>tag:None,2018-11-10:/third-article.html</id><summary type="html">&lt;p class="first last"&gt;Here's the &lt;a class="reference external" href="{filename}/first-article.rst"&gt;first&lt;/a&gt;,
+&lt;a class="reference external" href="{filename}/second-article.rst"&gt;second&lt;/a&gt; and a
+&lt;a class="reference external" href="{filename}/nonexistent.rst"&gt;nonexistent article&lt;/a&gt;.&lt;/p&gt;
+</summary><content type="html"></content><category term="cyclic_intersite_links"></category></entry><entry><title>#3 - String reverse</title><link href="/string-reverse.html" rel="alternate"></link><published>2018-04-23T22:00:00+00:00</published><updated>2018-04-23T22:00:00+00:00</updated><author><name>Alessandro Canicatti</name></author><id>tag:None,2018-04-23:/string-reverse.html</id><summary type="html">&lt;p&gt;Questa è una sfida che è venuta in mente ad &lt;a class="reference external" href="http://github.com/ale7canna"&gt;Alessandro&lt;/a&gt;: trovare modi alternativi, e possibilmente originali e divertenti, per calcolare l'inverso di una stringa.&lt;/p&gt;
+&lt;p&gt;Tutto è consentito: puoi usare LINQ, magheggi con Excel, incastri di HTML e CSS, Lisp, Kotlin, C#, VBA. Vale anche ServiceNow. Anzi, se qualcuno riesce …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Questa è una sfida che è venuta in mente ad &lt;a class="reference external" href="http://github.com/ale7canna"&gt;Alessandro&lt;/a&gt;: trovare modi alternativi, e possibilmente originali e divertenti, per calcolare l'inverso di una stringa.&lt;/p&gt;
+&lt;p&gt;Tutto è consentito: puoi usare LINQ, magheggi con Excel, incastri di HTML e CSS, Lisp, Kotlin, C#, VBA. Vale anche ServiceNow. Anzi, se qualcuno riesce con ServiceNow vince una birra al giorno, per il resto della sua vita.&lt;/p&gt;
+&lt;p&gt;Non importa che la soluzione sia efficiente o veloce: vince l'originalità.&lt;/p&gt;
+&lt;p&gt;Come nel &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Boggle"&gt;Paroliere&lt;/a&gt;, se due persone propongono la stessa soluzione, si scarta. E come nel Paroliere, non fermarti alla prima soluzione: manda  tutte quelle che ti vengono in mente a &lt;a class="reference external" href="mailto:ticinoxp&amp;#64;gmail.com"&gt;ticinoxp&amp;#64;gmail.com&lt;/a&gt;, o con pull request a &lt;a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/README.md"&gt;https://github.com/TicinoXP/code-games&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Dai dai dai!&lt;/p&gt;
+&lt;div class="section" id="le-soluzioni"&gt;
+&lt;h2&gt;Le soluzioni&lt;/h2&gt;
+&lt;div class="section" id="con-task-and-queue-arialdo"&gt;
+&lt;h3&gt;Con Task and Queue (Arialdo)&lt;/h3&gt;
+&lt;p&gt;Una prima soluzione prevede di riempire uno stack con le lettere della stringa, dalla prima all'ultima, per poi ricostruire la stringa con una serie di pop:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;static&lt;/span&gt; &lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="nf"&gt;Reverse&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;stack&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="n"&gt;Stack&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;();&lt;/span&gt;
+    &lt;span class="n"&gt;str&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ToList&lt;/span&gt;&lt;span class="p"&gt;().&lt;/span&gt;&lt;span class="n"&gt;ForEach&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;stack&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Push&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ToString&lt;/span&gt;&lt;span class="p"&gt;()));&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;stack&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ToList&lt;/span&gt;&lt;span class="p"&gt;().&lt;/span&gt;&lt;span class="n"&gt;Aggregate&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="con-una-funzione-ricorsiva-in-haskell-alessandro"&gt;
+&lt;h3&gt;Con una funzione ricorsiva in Haskell (Alessandro)&lt;/h3&gt;
+&lt;p&gt;Alessandro ha risolto con una funzione ricorsiva, in Haskell:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nf"&gt;reverseString&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt;
+  &lt;span class="kr"&gt;if&lt;/span&gt; &lt;span class="n"&gt;null&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;
+  &lt;span class="kr"&gt;then&lt;/span&gt;
+    &lt;span class="kt"&gt;[]&lt;/span&gt;
+  &lt;span class="kr"&gt;else&lt;/span&gt;
+    &lt;span class="n"&gt;reverseString&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;tail&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;head&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ed ecco due versioni alternative, con pattern matching:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nf"&gt;reverseStringPatternMatching&lt;/span&gt; &lt;span class="kt"&gt;[]&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;[]&lt;/span&gt;
+&lt;span class="nf"&gt;reverseStringPatternMatching&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="ow"&gt;=&lt;/span&gt;
+  &lt;span class="n"&gt;reverseStringPatternMatching&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;tail&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;head&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="nf"&gt;reverseStringGuards&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;
+  &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="kt"&gt;[]&lt;/span&gt;     &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;[]&lt;/span&gt;
+  &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;otherwise&lt;/span&gt;   &lt;span class="ow"&gt;=&lt;/span&gt; &lt;span class="n"&gt;reverseStringGuards&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;tail&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;++&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;head&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="con-una-funzione-ricorsiva-in-c-emanuele"&gt;
+&lt;h3&gt;Con una funzione ricorsiva, in C# (Emanuele)&lt;/h3&gt;
+&lt;p&gt;Emanuele ha trovato indipendentemente la stessa soluzione, e l'ha sviluppata in C#:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;static&lt;/span&gt; &lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="nf"&gt;Invert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;IsNullOrEmpty&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Length&lt;/span&gt; &lt;span class="p"&gt;==&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Substring&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Length&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;Invert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Substring&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Length&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="lisp-arialdo"&gt;
+&lt;h3&gt;Lisp (Arialdo)&lt;/h3&gt;
+&lt;p&gt;Ed ecco lo stesso identico algoritmo, in Scheme:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;define &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;revs&lt;/span&gt; &lt;span class="nv"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;cond &lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="nb"&gt;null? &lt;/span&gt;&lt;span class="nv"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;())&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;else &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;append&lt;/span&gt;
+               &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;revs&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;cdr &lt;/span&gt;&lt;span class="nv"&gt;s&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+               &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;list &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;car &lt;/span&gt;&lt;span class="nv"&gt;s&lt;/span&gt;&lt;span class="p"&gt;))))))&lt;/span&gt;
+
+
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;display&lt;/span&gt;
+ &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;list-&amp;gt;string&lt;/span&gt;
+  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;revs&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;string-&amp;gt;list &lt;/span&gt;&lt;span class="s"&gt;&amp;quot;ciao mamma, guarda come mi diverto&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;))))&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;newline&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="incomprensibilmente-complessa-emanuele"&gt;
+&lt;h3&gt;Incomprensibilmente complessa (Emanuele)&lt;/h3&gt;
+&lt;p&gt;Da buon matematico, Emanuele propone anche questa seconda soluzione, che alla prima
+lettura appare davvero criptica: passa dalla conversione in byte e fa magheggi con gli indici degli array.
+Vale la pena leggerla attentamente e capire cosa fa. Ha del geniale, soprattutto perché
+ribalta la stringa senza spostare i caratteri:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;static&lt;/span&gt; &lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="nf"&gt;Invert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;IsNullOrEmpty&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+    &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;array&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Text&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Encoding&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ASCII&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;GetBytes&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Length&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+    &lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="p"&gt;/&lt;/span&gt; &lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;++)&lt;/span&gt;
+    &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;diff&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+        &lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Convert&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ToByte&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;diff&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+        &lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Convert&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ToByte&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="n"&gt;diff&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Text&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Encoding&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Default&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;GetString&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="one-liner-in-linq-emanuele"&gt;
+&lt;h3&gt;One liner in LINQ (Emanuele)&lt;/h3&gt;
+&lt;p&gt;Una terza soluzione di Emanuele, in una sola riga di LINQ, con approccio funzionale puro:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Concat&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Linq&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Enumerable&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Length&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+              &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Select&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ToArray&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Length&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;]).&lt;/span&gt;&lt;span class="n"&gt;ToList&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="in-css-arialdo"&gt;
+&lt;h3&gt;In CSS (Arialdo)&lt;/h3&gt;
+&lt;p&gt;Ecco un approccio furbetto in CSS, che sfrutta le proprietà &lt;cite&gt;unicode-bidi&lt;/cite&gt; e &lt;cite&gt;direction&lt;/cite&gt; di CSS:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;reverse&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+  Ciao mamma, guarda come mi diverto!
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;con il CSS:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;reverse&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="k"&gt;unicode-bidi&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;bidi-override&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="k"&gt;direction&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;rtl&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Lo potete vedere in funzione su &lt;a class="reference external" href="https://codepen.io/anon/pen/MGeLQP"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="in-css-ribaltando-anche-le-lettere-arialdo"&gt;
+&lt;h3&gt;In CSS, ribaltando anche le lettere (Arialdo)&lt;/h3&gt;
+&lt;p&gt;Sempre in CSS, ma questa volta con il ribaltamento di ogni singola lettera:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;reverse&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+  Ciao mamma, guarda come mi diverto!!!
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;con il CSS:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;reverse&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+   &lt;span class="kp"&gt;-webkit-&lt;/span&gt;&lt;span class="k"&gt;transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nb"&gt;rotateY&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;180&lt;/span&gt;&lt;span class="kt"&gt;deg&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+   &lt;span class="kp"&gt;-moz-&lt;/span&gt;&lt;span class="k"&gt;transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nb"&gt;rotateY&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;180&lt;/span&gt;&lt;span class="kt"&gt;deg&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+   &lt;span class="kp"&gt;-o-&lt;/span&gt;&lt;span class="k"&gt;transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nb"&gt;rotateY&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;180&lt;/span&gt;&lt;span class="kt"&gt;deg&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+   &lt;span class="kp"&gt;-ms-&lt;/span&gt;&lt;span class="k"&gt;transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nb"&gt;rotateY&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;180&lt;/span&gt;&lt;span class="kt"&gt;deg&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+   &lt;span class="k"&gt;unicode-bidi&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="kc"&gt;bidi-override&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;img alt="" src="images/game-3-reverse-string/reversed.png" /&gt;
+&lt;p&gt;Potete provarlo su &lt;a class="reference external" href="https://codepen.io/anon/pen/MGeLQP"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reverse-sleep-arialdo"&gt;
+&lt;h3&gt;Reverse Sleep (Arialdo)&lt;/h3&gt;
+&lt;p&gt;Questo è uno spudorato plagio dello Sleep Sort, ma non ho potuto trattenermi:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;static&lt;/span&gt; &lt;span class="k"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;ReverseSleep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="p"&gt;{&lt;/span&gt;
+   &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+   &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ToList&lt;/span&gt;&lt;span class="p"&gt;().&lt;/span&gt;&lt;span class="n"&gt;ForEach&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;Task&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Run&lt;/span&gt;&lt;span class="p"&gt;(()&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt;
+     &lt;span class="p"&gt;{&lt;/span&gt;
+       &lt;span class="n"&gt;Thread&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Sleep&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Length&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;++)&lt;/span&gt; &lt;span class="p"&gt;*&lt;/span&gt; &lt;span class="m"&gt;100&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+       &lt;span class="n"&gt;Console&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;WriteLine&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ToString&lt;/span&gt;&lt;span class="p"&gt;());&lt;/span&gt;
+     &lt;span class="p"&gt;}));&lt;/span&gt;
+ &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="un-altro-one-liner-in-linq-arialdo-e-alessandro"&gt;
+&lt;h3&gt;Un altro one-liner in LINQ (Arialdo e Alessandro)&lt;/h3&gt;
+&lt;p&gt;Brutto, ma funziona:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;static&lt;/span&gt; &lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="nf"&gt;ReverseLinq&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+ &lt;span class="p"&gt;{&lt;/span&gt;
+   &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;
+     &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Zip&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Enumerable&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Length&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+       &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;character&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="n"&gt;KeyValuePair&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;(&lt;/span&gt;&lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;character&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ToString&lt;/span&gt;&lt;span class="p"&gt;()))&lt;/span&gt;
+     &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ToDictionary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Key&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+     &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;OrderByDescending&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;kv&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;kv&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Key&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+     &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Select&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;kv&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;kv&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Value&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+ &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="service-now-emanuele-e-stefano"&gt;
+&lt;h3&gt;Service Now!!! (Emanuele e Stefano)&lt;/h3&gt;
+&lt;p&gt;E una birra al giorno, vita natural durante, a Emanuele e Stefano!&lt;/p&gt;
+&lt;img alt="" src="images/game-3-reverse-string/snow.jpg" /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="Code Games"></category><category term="code-game"></category></entry><entry><title>#2 - Pond Sizes</title><link href="/pond-sizes.html" rel="alternate"></link><published>2017-09-19T10:00:00+00:00</published><updated>2017-09-19T10:00:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2017-09-19:/pond-sizes.html</id><summary type="html">&lt;p&gt;Ecco il quesito:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Pond Sizes
+----------
+You have an integer matrix representing a plot of land, where the
+value at that location represents the height above sea level.
+A value of 0 indicates water. A pond is a region of water connected
+vertically, horizontally, or diagonally.
+The size of the pond …&lt;/pre&gt;</summary><content type="html">&lt;p&gt;Ecco il quesito:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Pond Sizes
+----------
+You have an integer matrix representing a plot of land, where the
+value at that location represents the height above sea level.
+A value of 0 indicates water. A pond is a region of water connected
+vertically, horizontally, or diagonally.
+The size of the pond is the total number of connected water cells.
+
+Write a method to compute the sizes of all the ponds in the matrix.
+
+Example:
+
+Input:
+
+   0 2 1 0
+   0 1 0 1
+   1 1 0 1
+   0 1 0 1
+
+Output:
+
+   1, 2, 4
+&lt;/pre&gt;
+&lt;p&gt;Se vuoi pubblicare una soluzione, invia una pull request al repository  &lt;a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/README.md"&gt;https://github.com/TicinoXP/code-games&lt;/a&gt;&lt;/p&gt;
+&lt;div class="section" id="le-nostre-soluzioni"&gt;
+&lt;h2&gt;Le nostre soluzioni&lt;/h2&gt;
+&lt;div class="section" id="alessandro"&gt;
+&lt;h3&gt;Alessandro&lt;/h3&gt;
+&lt;p&gt;Ale ha battuto tutti sui tempi e, non contento della velocità, ha pure pubblicato due soluzioni. La sua &lt;a class="reference external" href="https://github.com/TicinoXP/code-games/pull/3"&gt;prima soluzione&lt;/a&gt; ruota intorno a questo snippet:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;width&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;++)&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;height&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;++)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;size&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;CountCells&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;mark&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+  &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;size&lt;/span&gt; &lt;span class="p"&gt;&amp;gt;&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;result&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;size&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;result&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Sort&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;CountCells&lt;/tt&gt; contiene il cuore della sua soluzione. È una funzione ricorsiva che esplora l'area intorno a una cella, segnando in un accumulatore le celle visitate, in modo da realizzare la condizione di terminazione:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;CountCells&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="p"&gt;[,]&lt;/span&gt; &lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;bool&lt;/span&gt;&lt;span class="p"&gt;[,]&lt;/span&gt; &lt;span class="n"&gt;yetMarked&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="p"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;GetLength&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;||&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt; &lt;span class="p"&gt;||&lt;/span&gt;
+        &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;GetLength&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;||&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+      &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;yetMarked&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+      &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+    &lt;span class="n"&gt;yetMarked&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="k"&gt;true&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+      &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;!=&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt;
+      &lt;span class="n"&gt;CountCells&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;yetMarked&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt;
+      &lt;span class="n"&gt;CountCells&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;yetMarked&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt;
+      &lt;span class="n"&gt;CountCells&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;yetMarked&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt;
+      &lt;span class="n"&gt;CountCells&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;yetMarked&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt;
+      &lt;span class="n"&gt;CountCells&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;yetMarked&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt;
+      &lt;span class="n"&gt;CountCells&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;yetMarked&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt;
+      &lt;span class="n"&gt;CountCells&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;yetMarked&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt;
+      &lt;span class="n"&gt;CountCells&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pond&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;yetMarked&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;L'idea è brillante e non fa una piega: si visitano i punti della matrice uno per uno. Per ognuno di loro, si visitano tutti i vicini, e poi i vicini dei vicini, e così via, ricorsivamente. Fintanto che si trovano celle con acqua, si prosegue, ma si bada bene a segnare il passaggio, in modo da non tornare mai sulla stessa cella. L'idea di smettere la navigazione nel momento in cui si incontrano celle già visitate è la chiave che permette all'algoritmo ricorsivo di non girare in eterno.&lt;/p&gt;
+&lt;p&gt;Nella &lt;a class="reference external" href="https://github.com/TicinoXP/code-games/pull/4"&gt;seconda soluzione&lt;/a&gt; Ale ha eliminato la ricorsione, sostituendola con un ciclo.
+Il codice è venuto, ovviamente, &lt;a class="reference external" href="https://github.com/ale7canna/code-games/blob/8011a664ebeeaedca776e1e4708122ce4580ad20/2-pond-sizes/PondSizeCalculator/Alessandro/PondSizeCalculator/Iteration/PondIteration.cs"&gt;parecchio più lungo&lt;/a&gt;, ma tant'è: le sfide sono sfide!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="stefano"&gt;
+&lt;h3&gt;Stefano&lt;/h3&gt;
+&lt;p&gt;La &lt;a class="reference external" href="https://github.com/TicinoXP/code-games/pull/5"&gt;soluzione di Stefano&lt;/a&gt; (con tanto di build in Maven) si basa su questa idea: i pond sono numerati a partire da 1; si parte con tutte le celle non assegnate,quindi con pond a 0.&lt;/p&gt;
+&lt;p&gt;L'algoritmo, poi, cicla le celle con acqua, una per una: se la cella non è assegnata si tenta di far ereditare il numero pond dalle celle vicine, se almeno una di loro risulta assegnata; se anche queste non sono state ancora assegnate, si assegna la cella ad un nuovo pond.&lt;/p&gt;
+&lt;p&gt;Stefano ha trovato dei casi un po' speciali, soprattutto con forme di pond particolarmente contorte, per cui può capitare che una cella non assegnata si trovi dei vicini assegnati a pond differenti: in questo caso, l'algoritmo riallinea i pond, fondendoli insieme.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="arialdo"&gt;
+&lt;h3&gt;Arialdo&lt;/h3&gt;
+&lt;p&gt;Arialdo ci ha provato con due soluzioni: &lt;a class="reference external" href="https://github.com/TicinoXP/code-games/pull/6"&gt;la prima&lt;/a&gt; è più banalotta, ma almeno funziona, e si basa sull'idea di partire con degli stagni unitari e fonderli iterativamente tra loro; la seconda può essere anche più fantasiosa, perché si basa sull'idea di pac-man che mangiano altri pac-man in un match all'ultimo sangue, ma alla fine Arialdo non è riuscito a implementarla. Per cui, bocciata senza diritto di replica.&lt;/p&gt;
+&lt;p&gt;L'idea di fondere gli stagni funziona così:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;come primo passo, l'algoritmo estrae l'elenco di tutti i punti con acqua e per ognuno costruisce uno stagno di dimensione 1, degli 1-stagno.&lt;/li&gt;
+&lt;li&gt;Dopo di che, tutti gli 1-stagni vengono ciclati. Se due 1-stagni sono adiacenti, vengono fusi tra loro a formare un 2-stagno. Questo viene fuso agli altri 1-stagni adiacenti, a formare dei 3-stagni, dei 4-stagni etc.&lt;/li&gt;
+&lt;li&gt;Quando si sono ciclati tutti gli stagni, gli stagni risultanti dalla fusione sono la soluzione.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;L'algoritmo non è molto efficiente, ma ha il vantaggio di essere molto compatto:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;private&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;CalculateSize&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nf"&gt;NeighborsOf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="n"&gt;Aggregate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;current&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;neighbor&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;current&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;CalculateSize&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;neighbor&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;neighbor&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Y&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;L'algoritmo della seconda soluzione è super inefficiente, contorto e complicato da sviluppare, ma funziona ed è divertente:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Si posiziona un pac-man in ogni punto con acqua.&lt;/li&gt;
+&lt;li&gt;L'idea, poi, è fare in modo che tutti i pac-man di uno stagno si incontrino nel Punto del Match, un punto di ritrovo per la sfida, per esempio quello più in alto a sinistra in ogni stagno. Per permettere a ogni pac-man di trovare il Punto del Match, gli si chiede di fare il giro della riva del proprio stagno. Prima si spinge il pac-man a destra, finché non incontra la riva&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt="" src="images/pond-sizes/arialdo1.png" /&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;poi gli si chiede di fare il giro, registrando quale sia il punto più in alto a sinistra.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt="" src="images/pond-sizes/arialdo2.png" /&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;A questo punto, si spostano tutti i pac-man nel Punto del Match che hanno individuato. Si saranno raggruppati tutti i pac-man di ogni stagno nel solito punto.&lt;/li&gt;
+&lt;li&gt;Adesso, per trovare la soluzione, basterebbe in effetti contare i pac-man. Ma, per continuare sulla metafora, si può proseguire chiedendo ai pac-man di eliminarsi coppie, finché non ne resti uno solo: ogni volta che un pac-man elimina un altro pac-man, aumenta il suo punto vita, inizialmente impostato a 1, di tutti i punti vita del pac-man ucciso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I punti vita dei pac-man superstiti sono la soluzione al problema.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="Code Games"></category><category term="code-game"></category></entry><entry><title>#1 - Il maggiore di due numeri, senza comparatori</title><link href="/maggiore-senza-comparatori.html" rel="alternate"></link><published>2017-09-19T08:30:00+00:00</published><updated>2017-09-19T08:30:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2017-09-19:/maggiore-senza-comparatori.html</id><summary type="html">&lt;p&gt;Trovare il maggiore di due numeri è banale:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;Max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;oppure:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;Max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ma riusciresti a farlo senza mai usare un comparatore?
+Niente &lt;tt class="docutils literal"&gt;&amp;gt;&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;&amp;lt;&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;==&lt;/tt&gt;, nessun &lt;tt class="docutils literal"&gt;if/then/else …&lt;/tt&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Trovare il maggiore di due numeri è banale:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;Max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;oppure:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;Max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ma riusciresti a farlo senza mai usare un comparatore?
+Niente &lt;tt class="docutils literal"&gt;&amp;gt;&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;&amp;lt;&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;==&lt;/tt&gt;, nessun &lt;tt class="docutils literal"&gt;if/then/else&lt;/tt&gt; e nessuno &lt;tt class="docutils literal"&gt;switch&lt;/tt&gt;!&lt;/p&gt;
+&lt;p&gt;Ecco il testo:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Write a function that takes 2 integers and returns the greater
+of them, or one of them if they are equal.
+You should not use comparators such as &amp;gt;, &amp;lt;, ==, Math.Max(), if, then,
+else, switch and the like.
+
+Example:
+
+Max(0, 0) =&amp;gt; 0
+Max(10, 0) =&amp;gt; 10
+Max(0, 10) =&amp;gt; 10
+Max(-1, 0) =&amp;gt; 0
+Max(-1, 1) =&amp;gt; 1
+Max(-10, -1) =&amp;gt; -1
+&lt;/pre&gt;
+&lt;p&gt;Vince l'approccio più originale.&lt;/p&gt;
+&lt;p&gt;Se vuoi pubblicare una soluzione, fai una pull request sul repository  &lt;a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/README.md"&gt;https://github.com/TicinoXP/code-games&lt;/a&gt;&lt;/p&gt;
+&lt;div class="section" id="le-nostre-soluzioni"&gt;
+&lt;h2&gt;Le nostre soluzioni&lt;/h2&gt;
+&lt;div class="section" id="emanuele"&gt;
+&lt;h3&gt;Emanuele&lt;/h3&gt;
+&lt;p&gt;Emanuele ha trovato &lt;a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/1-maggiore-senza-comparatori/Arialdo/MaxWithoutComparators/Emanuele.cs"&gt;una soluzione&lt;/a&gt; che sfrutta il valore assoluto. Dal momento che:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+      | + a if a &amp;gt;= 0
+      |
+|a|  &amp;lt;
+      |
+      | - a if a &amp;lt; 0
+&lt;/pre&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;Math.Abs()&lt;/tt&gt; può essere sfruttato per realizzare un &lt;tt class="docutils literal"&gt;if/else&lt;/tt&gt;. La sua soluzione è super concisa, e funziona sia con i numeri positivi che con quelli negativi:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;Max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Abs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;/&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="stefano"&gt;
+&lt;h3&gt;Stefano&lt;/h3&gt;
+&lt;p&gt;A chi dovesse storcere la bocca all'idea di usare l'&lt;tt class="docutils literal"&gt;if/else&lt;/tt&gt; nascosto dentro il valore assoluto piacerà l'enhancement proposto da Stefano: usare la radice del quadrato come alternativa al valore assoluto, che porta a questa soluzione:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;Max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Sqrt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Pow&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt; &lt;span class="p"&gt;/&lt;/span&gt; &lt;span class="m"&gt;2&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="raffaele"&gt;
+&lt;h3&gt;Raffaele&lt;/h3&gt;
+&lt;p&gt;Anche Raffaele ha trovato il modo di evitare l'uso del valore assoluto, e ha sfruttato il calcolo
+del segno di un'espressione. La sua soluzione è &lt;a class="reference external" href="https://github.com/TicinoXP/code-games/tree/master/1-maggiore-senza-comparatori/raffaele"&gt;qui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Era partito da questa formula:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;static&lt;/span&gt; &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;comparator&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;signum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;signum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;ma poi, rendendosi conto che non funzionava nel caso in cui &lt;tt class="docutils literal"&gt;a&lt;/tt&gt; e &lt;tt class="docutils literal"&gt;b&lt;/tt&gt; fossero uguali,
+l'ha elaborata così:&lt;/p&gt;
+&lt;img alt="" src="images/max-without-comparators/appunti-raffaele-2.jpg" /&gt;
+&lt;img alt="" src="images/max-without-comparators/appunti-raffaele.jpg" /&gt;
+&lt;p&gt;Tradotta in Java:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;comparator&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;signum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt;
+    &lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;signum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;signum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;signum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;che, opportunamente semplificata, è diventata:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;comparator&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;signum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="leonardo"&gt;
+&lt;h3&gt;Leonardo&lt;/h3&gt;
+&lt;p&gt;La soluzione di Leonardo sfrutta invece un trucco completamente diverso:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;Max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;number1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;number2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="k"&gt;try&lt;/span&gt;
+  &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;result&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;number1&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="n"&gt;number2&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;Convert&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ToUInt32&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;result&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;number1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="k"&gt;catch&lt;/span&gt;
+  &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;number2&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Un applauso per la fantasia!!!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="giuseppe-lombardi"&gt;
+&lt;h3&gt;Giuseppe Lombardi&lt;/h3&gt;
+&lt;p&gt;Un'altra soluzione davvero astuta e fantasiosa &lt;a class="reference external" href="https://github.com/beppel/code-games/tree/master/1-maggiore-senza-comparatori/MaggioreSenzaComparatori"&gt;la propone Giuseppe&lt;/a&gt;: se si accodano in un array &lt;tt class="docutils literal"&gt;a&lt;/tt&gt; ripetuto &lt;tt class="docutils literal"&gt;a&lt;/tt&gt; volte e &lt;tt class="docutils literal"&gt;b&lt;/tt&gt; ripetuto &lt;tt class="docutils literal"&gt;b&lt;/tt&gt; volte, l'elemento al centro dell'array sarà il maggiore:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+a = 7
+b = 4
+
+  0    1    2    3    4    5    6    7    8
+=============================================
+| 7 | 7 | 7 | 7 | 7 | 7 | 7 | 4 | 4 | 4 | 4 |
+=============================================
+                      ^
+                    centro
+&lt;/pre&gt;
+&lt;p&gt;Non è geniale?&lt;/p&gt;
+&lt;p&gt;Il codice è:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt; &lt;span class="nf"&gt;Max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;short&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;list&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="n"&gt;List&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="kt"&gt;uint&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;();&lt;/span&gt;
+
+    &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;uintA&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;ushort&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;MaxValue&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;uintA&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;++)&lt;/span&gt;
+        &lt;span class="n"&gt;list&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;uintA&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+
+    &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;uintB&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;ushort&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;MaxValue&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;uintB&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;++)&lt;/span&gt;
+        &lt;span class="n"&gt;list&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;uintB&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;)(&lt;/span&gt;&lt;span class="n"&gt;list&lt;/span&gt;&lt;span class="p"&gt;[((&lt;/span&gt;&lt;span class="n"&gt;uintA&lt;/span&gt; &lt;span class="p"&gt;+&lt;/span&gt; &lt;span class="n"&gt;uintB&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;/&lt;/span&gt; &lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt; &lt;span class="p"&gt;-&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;MaxValue&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;L'uso di &lt;tt class="docutils literal"&gt;short.MaxValue&lt;/tt&gt; è un altro trucco furbo per fare in modo che l'agoritmo funzioni
+anche con i numeri negativi: sommando ai valori in ingresso &lt;tt class="docutils literal"&gt;short.MaxValue&lt;/tt&gt; si traslano
+tutti i casi nel dominio dei numeri positivi.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="arialdo"&gt;
+&lt;h3&gt;Arialdo&lt;/h3&gt;
+&lt;p&gt;Esiste una piccola variante della soluzione di Giuseppe: si inseriscono in un array &lt;tt class="docutils literal"&gt;a&lt;/tt&gt; volte &lt;tt class="docutils literal"&gt;a&lt;/tt&gt;
+e &lt;tt class="docutils literal"&gt;b&lt;/tt&gt; volte &lt;tt class="docutils literal"&gt;b&lt;/tt&gt;, e poi si estraggono &lt;tt class="docutils literal"&gt;b&lt;/tt&gt; elementi da sinistra; il successivo contiene il max:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+a = 7
+b = 4
+
+  0    1    2    3    4    5    6    7    8
+=============================================
+| 7 | 7 | 7 | 7 | 7 | 7 | 7 | 4 | 4 | 4 | 4 |
+=============================================
+&amp;lt;----------- a  ------------&amp;gt;&amp;lt;------ b -----&amp;gt;
+&amp;lt;------ b -----&amp;gt; ^
+                 max
+&lt;/pre&gt;
+&lt;p&gt;Questa versione ha il vantaggio di poter essere implementata con una singola espressione LINQ:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;Max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;Enumerable&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Repeat&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="n"&gt;Concat&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Enumerable&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Repeat&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="n"&gt;Skip&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="n"&gt;ToList&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Arialdo ha trovato &lt;a class="reference external" href="https://github.com/TicinoXP/code-games/blob/master/1-maggiore-senza-comparatori/Arialdo/MaxWithoutComparators/Arialdo.cs"&gt;un secondo approccio&lt;/a&gt;, molto più convoluto e prolisso, e molto
+meno efficiente.
+L'idea è sfruttare il confronto tra bit e una funzione ricorsiva.&lt;/p&gt;
+&lt;p&gt;Si prendono i due numeri e li si traducono in binario:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+a = 1 1 0 1 0 1 0 1 0 1
+b =       1 1 1 0 0 1 1
+&lt;/pre&gt;
+&lt;p&gt;Si aggiungono all'occorrenza dei trailing 0:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+a = 1 1 0 1 0 1 0 1 0 1
+b = 0 0 0 1 1 1 0 0 1 1
+&lt;/pre&gt;
+&lt;p&gt;e si iniziano a confrontare i bit partendo da quelli più significativi: se un numero
+ha il bit a 1 mentre l'altro lo ha a 0, è facile capire quale dei due sia maggiore:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="nf"&gt;IsBigger&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="p"&gt;!&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Se i due bit sono uguali&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="nf"&gt;AreEqual&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt;  &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="p"&gt;||&lt;/span&gt; &lt;span class="p"&gt;(!&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="p"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="p"&gt;!&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;si deve procedere ricorsivamente.&lt;/p&gt;
+&lt;p&gt;Il problema della ricorsione è che ha bisogno di valutare la condizione di uscita,
+altrimenti non terminerebbe mai.
+Mentre è facile calcolare la condizione di uscita (non devono esserci altri numeri da valutare):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;static&lt;/span&gt; &lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="nf"&gt;ThereAreOtherItems&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;List&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="kt"&gt;bool&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;ab&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;ToBoolean&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ab&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Count&lt;/span&gt;&lt;span class="p"&gt;());&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;è un po' più difficile valutarla, perché richiederebbe un &lt;tt class="docutils literal"&gt;if&lt;/tt&gt;. Il trucco è sfruttare
+la &lt;em&gt;short-circuit evaluation&lt;/em&gt; degli operatori booleani: in pratica, in un &lt;tt class="docutils literal"&gt;or&lt;/tt&gt; il secondo
+elemento non viene valutato se il primo è già &lt;tt class="docutils literal"&gt;true&lt;/tt&gt;.
+L'algoritmo che ne risulta è:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="nf"&gt;AIsBigger&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;List&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="kt"&gt;bool&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;ab&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;List&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="kt"&gt;bool&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;bb&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+     &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;headA&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ab&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;First&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+     &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;headB&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bb&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;First&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+     &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;tailA&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ab&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Skip&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="n"&gt;ToList&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+     &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;tailB&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bb&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Skip&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="n"&gt;ToList&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+     &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;aIsBigger&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;IsBigger&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;headA&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;headB&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+     &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;areEqual&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;AreEqual&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;headA&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;headB&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+     &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;thereAreOtherItems&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ThereAreOtherItems&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;tailA&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+     &lt;span class="k"&gt;return&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;
+            &lt;span class="n"&gt;aIsBigger&lt;/span&gt;
+        &lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;||&lt;/span&gt;
+        &lt;span class="p"&gt;(&lt;/span&gt;
+            &lt;span class="n"&gt;areEqual&lt;/span&gt;
+            &lt;span class="p"&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;
+                &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;thereAreOtherItems&lt;/span&gt; &lt;span class="p"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="n"&gt;AIsBigger&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;tailA&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;tailB&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+                &lt;span class="p"&gt;||&lt;/span&gt;
+                &lt;span class="p"&gt;!&lt;/span&gt;&lt;span class="n"&gt;thereAreOtherItems&lt;/span&gt;
+            &lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;);&lt;/span&gt;
+ &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Fa schifo, ma funziona!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="Code Games"></category><category term="code-game"></category></entry><entry><title>PerchÃ© l'encoding Ã¨ importante?</title><link href="/sblendorio.html" rel="alternate"></link><published>2016-03-11T19:00:00+00:00</published><updated>2016-03-11T19:00:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2016-03-11:/sblendorio.html</id><summary type="html">&lt;p&gt;“Problemi di encoding. Lo sentiamo e lo diciamo varie volte quando si leggono caratteri “strani”, che di strano non hanno proprio niente, in posti dove non ci aspettiamo. Sono solo caratteri sbagliati. Perché si presentano? Un problema affrontato e risolto brillantemente nel 1992 che però spesso viene preso sotto gamba …&lt;/p&gt;</summary><content type="html">&lt;p&gt;“Problemi di encoding. Lo sentiamo e lo diciamo varie volte quando si leggono caratteri “strani”, che di strano non hanno proprio niente, in posti dove non ci aspettiamo. Sono solo caratteri sbagliati. Perché si presentano? Un problema affrontato e risolto brillantemente nel 1992 che però spesso viene preso sotto gamba.”&lt;/p&gt;
+&lt;p&gt;A parlarcene, in una presentazione frontale nella Sala Multifunzione del Comune di Bedano, è stato Francesco Sblendorio, sviluppatore Java di JobRapido di Milano.&lt;/p&gt;
+&lt;p&gt;Nella seconda parte della serata Mattia Piccinetti ci ha guidato in una sessione pratica, mani sulla tastiera.&lt;/p&gt;
+&lt;p&gt;Dopo il meetup, pizza e birra al Bivio di Manno.&lt;/p&gt;
+&lt;p&gt;L’incontro è stato gratuito: il costo dell’affitto della Sala è stato sostenuto da TicinoXP.&lt;/p&gt;
+&lt;p&gt;Le slide della presentazione sono disponibili qui.&lt;/p&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_184256.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_0543.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_0544.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_0546.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_184022.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_184706.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_184708.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_190158.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_190240.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_191455.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_194942.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_200526.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_202613.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_214124.jpg" /&gt;
+&lt;img alt="" src="images/sblendorio/IMG_20160311_215154.jpg" /&gt;
+</content><category term="Meetup"></category><category term="meetup"></category></entry><entry><title>About</title><link href="/about.html" rel="alternate"></link><published>2015-12-23T22:00:00+00:00</published><updated>2015-12-23T22:00:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2015-12-23:/about.html</id><summary type="html">&lt;p class="first last"&gt;Cos’è TicinoXP&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;TicinoXP è uno User Group composto da programmatori e professionisti dell'IT
+provenienti da varie aziende ticinesi.&lt;/p&gt;
+&lt;p&gt;Il gruppo organizza degli incontri dal taglio pratico, nei quali si sperimenta col codice, si fanno Kata, Randori e code retreat, si discute di tecnologia, di sviluppo e di gestione di progetti.&lt;/p&gt;
+&lt;p&gt;Il gruppo non è legato ad uno specifico linguaggio: ci si incontra per fare networking
+e per uscire dalla propria zona di comfort, per cui qualsiasi linguaggio o pratica
+venga valutato stimolante e sfidante è ben accolto.&lt;/p&gt;
+&lt;p&gt;Gli incontri di TicinoXP sono gratuiti, in italiano e aperti a tutti.&lt;/p&gt;
+</content><category term="info"></category><category term="info"></category></entry><entry><title>Randori in C#</title><link href="/randori1.html" rel="alternate"></link><published>2015-02-24T19:00:00+00:00</published><updated>2015-02-24T19:00:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2015-02-24:/randori1.html</id><summary type="html">&lt;p&gt;Di nuovo ospiti di &lt;a class="reference external" href="http://thedots.ch"&gt;TheDots.ch&lt;/a&gt; di Roberto Giardina, di nuovo armati di tastiera, di nuovo in Test-Driven Development. Guidati da &lt;a class="reference external" href="https://github.com/gicappa"&gt;Gian Carlo Pace&lt;/a&gt;, nostro coach per la seconda volta, abbiamo affrontato un problema (&lt;a class="reference external" href="https://github.com/TicinoXP/Gioco-Dell-Oca"&gt;qui il codice&lt;/a&gt;) partendo da requisiti svelati all’ultimo momento.&lt;/p&gt;
+&lt;p&gt;La sfida è stata uscire dalla …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Di nuovo ospiti di &lt;a class="reference external" href="http://thedots.ch"&gt;TheDots.ch&lt;/a&gt; di Roberto Giardina, di nuovo armati di tastiera, di nuovo in Test-Driven Development. Guidati da &lt;a class="reference external" href="https://github.com/gicappa"&gt;Gian Carlo Pace&lt;/a&gt;, nostro coach per la seconda volta, abbiamo affrontato un problema (&lt;a class="reference external" href="https://github.com/TicinoXP/Gioco-Dell-Oca"&gt;qui il codice&lt;/a&gt;) partendo da requisiti svelati all’ultimo momento.&lt;/p&gt;
+&lt;p&gt;La sfida è stata uscire dalla nostra zona di comfort programmando in coppia, a turno, di fronte agli occhi del resto degli invitati, per poi commentare, criticarci e consigliarci, tutti insieme.&lt;/p&gt;
+&lt;img alt="" src="images/randori1/logo.jpg" /&gt;
+</content><category term="Meetup"></category><category term="meetup"></category></entry><entry><title>C# Code Kata</title><link href="/kata1.html" rel="alternate"></link><published>2015-01-27T19:00:00+00:00</published><updated>2015-01-27T19:00:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2015-01-27:/kata1.html</id><summary type="html">&lt;p&gt;Ci siamo incontrati, ospiti di Roberto Giardina nella sede di &lt;a class="reference external" href="http://thedots.ch"&gt;TheDots.ch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Armati di tastiera, in pairing e guidati da &lt;a class="reference external" href="https://github.com/gicappa"&gt;Gian Carlo Pace&lt;/a&gt;, abbiamo risolto il Code Kata &lt;a class="reference external" href="http://www.github.com/ticinoxp/capoccione"&gt;Capoccione&lt;/a&gt;, in C#, applicando Test-Driven Development.&lt;/p&gt;
+&lt;p&gt;Gian Carlo Pace ha aperto l'incontro con una presentazione molto efficace, usando le &lt;a class="reference external" href="http://www.slideshare.net/gabriele.lana/programmingkatas"&gt;slide&lt;/a&gt; di &lt;a class="reference external" href="https://twitter.com/gabrielelana"&gt;Gabriele …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ci siamo incontrati, ospiti di Roberto Giardina nella sede di &lt;a class="reference external" href="http://thedots.ch"&gt;TheDots.ch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Armati di tastiera, in pairing e guidati da &lt;a class="reference external" href="https://github.com/gicappa"&gt;Gian Carlo Pace&lt;/a&gt;, abbiamo risolto il Code Kata &lt;a class="reference external" href="http://www.github.com/ticinoxp/capoccione"&gt;Capoccione&lt;/a&gt;, in C#, applicando Test-Driven Development.&lt;/p&gt;
+&lt;p&gt;Gian Carlo Pace ha aperto l'incontro con una presentazione molto efficace, usando le &lt;a class="reference external" href="http://www.slideshare.net/gabriele.lana/programmingkatas"&gt;slide&lt;/a&gt; di &lt;a class="reference external" href="https://twitter.com/gabrielelana"&gt;Gabriele Lana&lt;/a&gt;&lt;/p&gt;
+&lt;img alt="" src="images/kata1/kata1_1.jpg" /&gt;
+&lt;img alt="" src="images/kata1/kata1_2.jpg" /&gt;
+&lt;img alt="" src="images/kata1/gianrobigia.jpg" /&gt;
+&lt;img alt="" src="images/kata1/lucafranco.jpg" /&gt;
+</content><category term="Meetup"></category><category term="meetup"></category></entry><entry><title>This is an article with multiple authors!</title><link href="/this-is-an-article-with-multiple-authors.html" rel="alternate"></link><published>2014-02-09T02:20:00+00:00</published><updated>2014-02-09T02:20:00+00:00</updated><author><name>First Author</name></author><id>tag:None,2014-02-09:/this-is-an-article-with-multiple-authors.html</id><content type="html"></content><category term="content"></category></entry><entry><title>This is an article with multiple authors in lastname, firstname format!</title><link href="/this-is-an-article-with-multiple-authors-in-lastname-firstname-format.html" rel="alternate"></link><published>2014-02-09T02:20:00+00:00</published><updated>2014-02-09T02:20:00+00:00</updated><author><name>Author, First</name></author><id>tag:None,2014-02-09:/this-is-an-article-with-multiple-authors-in-lastname-firstname-format.html</id><content type="html"></content><category term="content"></category></entry><entry><title>This is an article with multiple authors in list format!</title><link href="/this-is-an-article-with-multiple-authors-in-list-format.html" rel="alternate"></link><published>2014-02-09T02:20:00+00:00</published><updated>2014-02-09T02:20:00+00:00</updated><author><name>Author, First</name></author><id>tag:None,2014-02-09:/this-is-an-article-with-multiple-authors-in-list-format.html</id><content type="html">&lt;p&gt;The author names are in last,first form to verify that
+they are not just getting split on commas.&lt;/p&gt;
+</content><category term="content"></category></entry><entry><title>Incontro Zero</title><link href="/HelloWorld.html" rel="alternate"></link><published>2014-01-07T19:30:00+00:00</published><updated>2014-01-07T19:30:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2014-01-07:/HelloWorld.html</id><content type="html">&lt;p&gt;Franco, Paolo, Gian Carlo, Roberto, Luca, Leonardo a Arialdo all'incontro #0 al &lt;a class="reference external" href="http://www.citybiliardo.com"&gt;City Biliardo&lt;/a&gt; di Lugano.&lt;/p&gt;
+&lt;img alt="" src="images/incontro0/incontro0.jpg" /&gt;
+&lt;img alt="" src="images/incontro0/IMG_20150107_191018.jpg" /&gt;
+&lt;img alt="" src="images/incontro0/IMG_20150107_193939.jpg" /&gt;
+&lt;img alt="" src="images/incontro0/IMG_20150107_213436.jpg" /&gt;
+&lt;img alt="" src="images/incontro0/IMG_20150107_213505.jpg" /&gt;
+</content><category term="Meetup"></category><category term="meetup"></category></entry><entry><title>Rst with filename metadata</title><link href="/rst-with-filename-metadata.html" rel="alternate"></link><published>2012-11-29T00:00:00+00:00</published><updated>2012-11-29T00:00:00+00:00</updated><author><name>Alexis Métaireau</name></author><id>tag:None,2012-11-29:/rst-with-filename-metadata.html</id><content type="html"></content><category term="yeah"></category></entry><entry><title>This is a super article !</title><link href="/this-is-a-super-article.html" rel="alternate"></link><published>2010-12-02T10:14:00+00:00</published><updated>2010-12-02T10:14:00+00:00</updated><author><name>Alexis Métaireau</name></author><id>tag:None,2010-12-02:/this-is-a-super-article.html</id><summary type="html">Summary and stuff</summary><content type="html">
+        Multi-line metadata should be supported
+        as well as &lt;strong&gt;inline markup&lt;/strong&gt;.
+    </content><category term="yeah"></category><category term="foo"></category><category term="bar"></category><category term="foobar"></category></entry><entry><title>This is a super article !</title><link href="/this-is-a-super-article.html" rel="alternate"></link><published>2010-12-02T10:14:00+00:00</published><updated>2010-12-02T10:14:00+00:00</updated><author><name>Alexis Métaireau</name></author><id>tag:None,2010-12-02:/this-is-a-super-article.html</id><summary type="html">Summary and stuff</summary><content type="html">
+        Multi-line metadata should be supported
+        as well as &lt;strong&gt;inline markup&lt;/strong&gt;.
+    </content><category term="yeah"></category><category term="foo"></category><category term="bar"></category><category term="foobar"></category></entry><entry><title>This is a super article !</title><link href="/this-is-a-super-article.html" rel="alternate"></link><published>2010-12-02T10:14:00+00:00</published><updated>2010-12-02T10:20:00+00:00</updated><author><name>Alexis Métaireau</name></author><id>tag:None,2010-12-02:/this-is-a-super-article.html</id><summary type="html">&lt;p class="first last"&gt;Multi-line metadata should be supported
+as well as &lt;strong&gt;inline markup&lt;/strong&gt; and stuff to &amp;quot;typogrify&amp;quot;...&lt;/p&gt;
+</summary><content type="html"></content><category term="yeah"></category><category term="foo"></category><category term="bar"></category><category term="foobar"></category></entry><entry><title>This is a super article !</title><link href="/this-is-a-super-article.html" rel="alternate"></link><published>2010-12-02T10:14:00+00:00</published><updated>2010-12-31T23:59:00+00:00</updated><author><name>Alexis Métaireau</name></author><id>tag:None,2010-12-02:/this-is-a-super-article.html</id><summary type="html">Summary and stuff</summary><content type="html">
+        Multi-line metadata should be supported
+        as well as &lt;strong&gt;inline markup&lt;/strong&gt;.
+    </content><category term="yeah"></category><category term="foo"></category><category term="bar"></category><category term="foobar"></category></entry><entry><title>This is a super article !</title><link href="/this-is-a-super-article.html" rel="alternate"></link><published>2010-12-02T10:14:00+00:00</published><updated>2010-12-02T10:14:00+00:00</updated><author><name>Alexis Métaireau</name></author><id>tag:None,2010-12-02:/this-is-a-super-article.html</id><summary type="html">Summary and stuff</summary><content type="html">
+        Multi-line metadata should be supported
+        as well as &lt;strong&gt;inline markup&lt;/strong&gt;.
+    </content><category term="yeah"></category><category term="foo"></category><category term="bar"></category><category term="foobar"></category></entry><entry><title>This is a super article !</title><link href="/this-is-a-super-article.html" rel="alternate"></link><published>2010-12-02T10:14:00+00:00</published><updated>2010-12-02T10:20:00+00:00</updated><author><name>Alexis Métaireau</name></author><id>tag:None,2010-12-02:/this-is-a-super-article.html</id><summary type="html">&lt;p class="first last"&gt;Multi-line metadata should be supported
+as well as &lt;strong&gt;inline markup&lt;/strong&gt; and stuff to &amp;quot;typogrify&amp;quot;...&lt;/p&gt;
+</summary><content type="html"></content><category term="yeah"></category><category term="foo"></category><category term="bar"></category><category term="foobar"></category></entry><entry><title>This is an article with category !</title><link href="/this-is-an-article-with-category.html" rel="alternate"></link><published>1970-01-01T00:00:00+00:00</published><updated>1970-01-01T00:00:00+00:00</updated><author><name></name></author><id>tag:None,1970-01-01:/this-is-an-article-with-category.html</id><content type="html">&lt;p&gt;This article should be in 'yeah' category.&lt;/p&gt;
+</content><category term="yeah"></category></entry></feed>

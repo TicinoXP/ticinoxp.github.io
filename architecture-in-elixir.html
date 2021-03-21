@@ -2,7 +2,7 @@
 <html lang="it"
 >
 <head>
-    <title>Categories - TicinoXP</title>
+    <title>Architettura in Elixir - TicinoXP</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,18 +10,15 @@
 
 
 
+<link rel="canonical" href="./architecture-in-elixir">
 
-        <meta name="author" content="TicinoXP" />
+        <meta name="author" content="Arialdo Martini" />
+        <meta name="keywords" content="arch" />
+        <meta name="description" content="Emanuele DelBono, Founder e Software Architect di CodicePlastico ci invita a una chiacchierata informale online, nella quale faremo una review del design e dell&#39;architettura di un progetto produttivo in Elixir. Sarà l&#39;occasione per parlare di Actor Model, concorrenza e testing. Ci troviamo giovedì 25 marzo 2021, alle 17:00 su …" />
 
     <!-- Enable latex plugin -->
 
 
-    <!-- Open Graph tags -->
-        <meta property="og:site_name" content="TicinoXP" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="TicinoXP"/>
-        <meta property="og:url" content="."/>
-        <meta property="og:description" content="TicinoXP"/>
 
 
     <!-- Bootstrap -->
@@ -57,7 +54,7 @@
                         <li >
                             <a href="./code-games">Code games</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="./meetup">Meetup</a>
                         </li>
                         <li >
@@ -75,64 +72,57 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <ol class="breadcrumb">
-        <li><a href="." title="TicinoXP"><i class="fa fa-home fa-lg"></i></a></li>
-        <li class="active">Categories</li>
-    </ol>
+            <ol class="breadcrumb">
+                <li><a href="." title="TicinoXP"><i class="fa fa-home fa-lg"></i></a></li>
+                <li class="active">Architettura in Elixir</li>
+            </ol>
 
-    <section id="categories">
-        <h1>All Categories for TicinoXP</h1>
-        <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-code-games">Code Games <span class="badge pull-right">3</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-code-games" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2018-04-23T22:00:00+02:00">Mon 23 April 2018</time></span> <a href="./string-reverse">#3 - String reverse</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2017-09-19T10:00:00+02:00">Tue 19 September 2017</time></span> <a href="./pond-sizes">#2 - Pond Sizes</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2017-09-19T08:30:00+02:00">Tue 19 September 2017</time></span> <a href="./maggiore-senza-comparatori">#1 - Il maggiore di due numeri, senza comparatori</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-meetup">Meetup <span class="badge pull-right">7</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-meetup" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2021-02-19T08:30:00+01:00">Fri 19 February 2021</time></span> <a href="./architecture-in-elixir">Architettura in Elixir</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2021-01-22T08:30:00+01:00">Fri 22 January 2021</time></span> <a href="./arte-perduta-del-tdd-2">L'arte perduta del TDD - Sessione 2</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2021-01-11T08:30:00+01:00">Mon 11 January 2021</time></span> <a href="./arte-perduta-del-tdd">L'arte perduta del TDD</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2016-03-11T19:00:00+01:00">Fri 11 March 2016</time></span> <a href="./sblendorio">PerchÃ© l'encoding Ã¨ importante?</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2015-02-24T19:00:00+01:00">Tue 24 February 2015</time></span> <a href="./randori1">Randori in C#</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2015-01-27T19:00:00+01:00">Tue 27 January 2015</time></span> <a href="./kata1">C# Code Kata</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2014-01-07T19:30:00+01:00">Tue 07 January 2014</time></span> <a href="./HelloWorld">Incontro Zero</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-reading-club">Reading Club <span class="badge pull-right">4</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-reading-club" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2021-02-27T08:30:00+01:00">Sat 27 February 2021</time></span> <a href="./functional-programming-sessione-3">Reading Club - Functional Programming in C# - Sessione 3</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2021-02-15T08:30:00+01:00">Mon 15 February 2021</time></span> <a href="./functional-programming-sessione-2">Reading Club - Functional Programming in C# - Sessione 2</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2021-01-24T08:30:00+01:00">Sun 24 January 2021</time></span> <a href="./functional-programming-sessione-1">Reading Club - Functional Programming in C# - Sessione 1</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2021-01-11T08:30:00+01:00">Mon 11 January 2021</time></span> <a href="./functional-programming-1">Reading Club - Functional Programming in C#</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="content">
+        <article>
+            <header class="page-header">
+    <p>
+        <a class="btn btn-default btn-xs" href="./category/Meetup">Meetup</a>
+    </p>
+                <h1>
+                    <a href="./architecture-in-elixir"
+                       rel="bookmark"
+                       title="Permalink to Architettura in Elixir">
+                        Architettura in Elixir
+                    </a>
+                </h1>
+<footer class="post-info">
+    <span class="published">
+        Arialdo Martini - <i class="fa fa-calendar"></i><time datetime="2021-02-19T08:30:00+01:00"> Fri 19 February 2021</time>
+    </span>
 
+
+
+
+
+
+
+    
+</footer><!-- /.post-info -->            </header>
+            <div class="entry-content">
+                <!-- <span class="published">
+                     Arialdo Martini - <i class="fa fa-calendar"></i><time datetime="2021-02-19T08:30:00+01:00"> Fri 19 February 2021</time>
+                     </span>
+                   -->
+
+                <p>Emanuele DelBono, Founder e Software Architect di <a class="reference external" href="https://codiceplastico.com/">CodicePlastico</a> ci invita a una chiacchierata informale online, nella quale faremo una review del design e dell'architettura di un progetto produttivo in Elixir.</p>
+<p>Sarà l'occasione per parlare di Actor Model, concorrenza e testing.</p>
+<p>Ci troviamo giovedì 25 marzo 2021, alle 17:00 su <a class="reference external" href="https://meet.jit.si/architecture-in-elixir">Jitsi</a>.</p>
+<p>Come sempre, l'evento è gratuito e in italiano.</p>
+<ul class="simple">
+<li><strong>Quando</strong>: giovedì 25 marzo 2021, alle 17:00</li>
+<li><strong>Dove</strong>: online, con Jitsi, su <a class="reference external" href="https://meet.jit.si/architecture-in-elixir">https://meet.jit.si/architecture-in-elixir</a>.</li>
+</ul>
+
+            </div>
+            <!-- /.entry-content -->
+        </article>
     </section>
+
         </div>
         <div class="col-sm-3 well well-sm" id="sidebar">
 

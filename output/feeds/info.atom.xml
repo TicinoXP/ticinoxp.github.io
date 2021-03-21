@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - info</title><link href="/" rel="alternate"></link><link href="/feeds/info.atom.xml" rel="self"></link><id>/</id><updated>2015-12-23T22:00:00+00:00</updated><entry><title>About</title><link href="/about.html" rel="alternate"></link><published>2015-12-23T22:00:00+00:00</published><updated>2015-12-23T22:00:00+00:00</updated><author><name>Arialdo Martini</name></author><id>tag:None,2015-12-23:/about.html</id><summary type="html">&lt;p class="first last"&gt;Cos’è TicinoXP&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;TicinoXP è uno User Group composto da programmatori e professionisti dell'IT
+provenienti da varie aziende ticinesi.&lt;/p&gt;
+&lt;p&gt;Il gruppo organizza degli incontri dal taglio pratico, nei quali si sperimenta col codice, si fanno Kata, Randori e code retreat, si discute di tecnologia, di sviluppo e di gestione di progetti.&lt;/p&gt;
+&lt;p&gt;Il gruppo non è legato ad uno specifico linguaggio: ci si incontra per fare networking
+e per uscire dalla propria zona di comfort, per cui qualsiasi linguaggio o pratica
+venga valutato stimolante e sfidante è ben accolto.&lt;/p&gt;
+&lt;p&gt;Gli incontri di TicinoXP sono gratuiti, in italiano e aperti a tutti.&lt;/p&gt;
+</content><category term="info"></category><category term="info"></category></entry></feed>
