@@ -119,62 +119,62 @@
 <div class="section" id="con-task-and-queue-arialdo">
 <h3>Con Task and Queue (Arialdo)</h3>
 <p>Una prima soluzione prevede di riempire uno stack con le lettere della stringa, dalla prima all'ultima, per poi ricostruire la stringa con una serie di pop:</p>
-<div class="highlight"><pre><span></span><span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="nf">Reverse</span><span class="p">(</span><span class="kt">string</span> <span class="n">str</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">Reverse</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">str</span><span class="p">)</span>
 <span class="p">{</span>
-    <span class="kt">var</span> <span class="n">stack</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Stack</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;();</span>
-    <span class="n">str</span><span class="p">.</span><span class="n">ToList</span><span class="p">().</span><span class="n">ForEach</span><span class="p">(</span><span class="n">s</span> <span class="p">=&gt;</span> <span class="n">stack</span><span class="p">.</span><span class="n">Push</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">ToString</span><span class="p">()));</span>
-    <span class="k">return</span> <span class="n">stack</span><span class="p">.</span><span class="n">ToList</span><span class="p">().</span><span class="n">Aggregate</span><span class="p">((</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="n">a</span> <span class="p">+</span> <span class="n">b</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">var</span><span class="w"> </span><span class="n">stack</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Stack</span><span class="o">&lt;</span><span class="kt">string</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="w">    </span><span class="n">str</span><span class="p">.</span><span class="n">ToList</span><span class="p">().</span><span class="n">ForEach</span><span class="p">(</span><span class="n">s</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">stack</span><span class="p">.</span><span class="n">Push</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">ToString</span><span class="p">()));</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">stack</span><span class="p">.</span><span class="n">ToList</span><span class="p">().</span><span class="n">Aggregate</span><span class="p">((</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
 </div>
 <div class="section" id="con-una-funzione-ricorsiva-in-haskell-alessandro">
 <h3>Con una funzione ricorsiva in Haskell (Alessandro)</h3>
 <p>Alessandro ha risolto con una funzione ricorsiva, in Haskell:</p>
-<div class="highlight"><pre><span></span><span class="nf">reverseString</span> <span class="n">x</span> <span class="ow">=</span>
-  <span class="kr">if</span> <span class="n">null</span> <span class="n">x</span>
-  <span class="kr">then</span>
-    <span class="kt">[]</span>
-  <span class="kr">else</span>
-    <span class="n">reverseString</span> <span class="p">(</span><span class="n">tail</span> <span class="n">x</span><span class="p">)</span> <span class="o">++</span> <span class="p">[</span><span class="n">head</span> <span class="n">x</span><span class="p">]</span>
+<div class="highlight"><pre><span></span><span class="nf">reverseString</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="ow">=</span>
+<span class="w">  </span><span class="kr">if</span><span class="w"> </span><span class="n">null</span><span class="w"> </span><span class="n">x</span>
+<span class="w">  </span><span class="kr">then</span>
+<span class="w">    </span><span class="kt">[]</span>
+<span class="w">  </span><span class="kr">else</span>
+<span class="w">    </span><span class="n">reverseString</span><span class="w"> </span><span class="p">(</span><span class="n">tail</span><span class="w"> </span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="o">++</span><span class="w"> </span><span class="p">[</span><span class="n">head</span><span class="w"> </span><span class="n">x</span><span class="p">]</span>
 </pre></div>
 <p>Ed ecco due versioni alternative, con pattern matching:</p>
-<div class="highlight"><pre><span></span><span class="nf">reverseStringPatternMatching</span> <span class="kt">[]</span> <span class="ow">=</span> <span class="kt">[]</span>
-<span class="nf">reverseStringPatternMatching</span> <span class="n">x</span> <span class="ow">=</span>
-  <span class="n">reverseStringPatternMatching</span> <span class="p">(</span><span class="n">tail</span> <span class="n">x</span><span class="p">)</span> <span class="o">++</span> <span class="p">[</span><span class="n">head</span> <span class="n">x</span><span class="p">]</span>
+<div class="highlight"><pre><span></span><span class="nf">reverseStringPatternMatching</span><span class="w"> </span><span class="kt">[]</span><span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kt">[]</span>
+<span class="nf">reverseStringPatternMatching</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="ow">=</span>
+<span class="w">  </span><span class="n">reverseStringPatternMatching</span><span class="w"> </span><span class="p">(</span><span class="n">tail</span><span class="w"> </span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="o">++</span><span class="w"> </span><span class="p">[</span><span class="n">head</span><span class="w"> </span><span class="n">x</span><span class="p">]</span>
 
-<span class="nf">reverseStringGuards</span> <span class="n">x</span>
-  <span class="o">|</span> <span class="n">x</span> <span class="o">==</span> <span class="kt">[]</span>     <span class="ow">=</span> <span class="kt">[]</span>
-  <span class="o">|</span> <span class="n">otherwise</span>   <span class="ow">=</span> <span class="n">reverseStringGuards</span> <span class="p">(</span><span class="n">tail</span> <span class="n">x</span><span class="p">)</span> <span class="o">++</span> <span class="p">[</span><span class="n">head</span> <span class="n">x</span><span class="p">]</span>
+<span class="nf">reverseStringGuards</span><span class="w"> </span><span class="n">x</span>
+<span class="w">  </span><span class="o">|</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kt">[]</span><span class="w">     </span><span class="ow">=</span><span class="w"> </span><span class="kt">[]</span>
+<span class="w">  </span><span class="o">|</span><span class="w"> </span><span class="n">otherwise</span><span class="w">   </span><span class="ow">=</span><span class="w"> </span><span class="n">reverseStringGuards</span><span class="w"> </span><span class="p">(</span><span class="n">tail</span><span class="w"> </span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="o">++</span><span class="w"> </span><span class="p">[</span><span class="n">head</span><span class="w"> </span><span class="n">x</span><span class="p">]</span>
 </pre></div>
 </div>
 <div class="section" id="con-una-funzione-ricorsiva-in-c-emanuele">
 <h3>Con una funzione ricorsiva, in C# (Emanuele)</h3>
 <p>Emanuele ha trovato indipendentemente la stessa soluzione, e l'ha sviluppata in C#:</p>
-<div class="highlight"><pre><span></span><span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="nf">Invert</span><span class="p">(</span><span class="kt">string</span> <span class="n">s</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">Invert</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">s</span><span class="p">)</span>
 <span class="p">{</span>
-    <span class="k">if</span><span class="p">(</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
-        <span class="k">return</span> <span class="n">s</span><span class="p">;</span>
-    <span class="k">if</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">Length</span> <span class="p">==</span> <span class="m">1</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">s</span><span class="p">;</span>
+<span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">s</span><span class="p">;</span>
+<span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">Length</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">1</span><span class="p">)</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">s</span><span class="p">;</span>
 
-    <span class="k">return</span> <span class="n">s</span><span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">Length</span> <span class="p">-</span> <span class="m">1</span><span class="p">,</span> <span class="m">1</span><span class="p">)</span> <span class="p">+</span> <span class="n">Invert</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">s</span><span class="p">.</span><span class="n">Length</span> <span class="p">-</span> <span class="m">1</span><span class="p">));</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">Length</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">Invert</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">Substring</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">Length</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="m">1</span><span class="p">));</span>
 <span class="p">}</span>
 </pre></div>
 </div>
 <div class="section" id="lisp-arialdo">
 <h3>Lisp (Arialdo)</h3>
 <p>Ed ecco lo stesso identico algoritmo, in Scheme:</p>
-<div class="highlight"><pre><span></span><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">revs</span> <span class="nv">s</span><span class="p">)</span>
-  <span class="p">(</span><span class="k">cond </span><span class="p">((</span><span class="nb">null? </span><span class="nv">s</span><span class="p">)</span> <span class="p">())</span>
-        <span class="p">(</span><span class="k">else </span><span class="p">(</span><span class="nf">append</span>
-               <span class="p">(</span><span class="nf">revs</span> <span class="p">(</span><span class="nb">cdr </span><span class="nv">s</span><span class="p">))</span>
-               <span class="p">(</span><span class="nb">list </span><span class="p">(</span><span class="nb">car </span><span class="nv">s</span><span class="p">))))))</span>
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="k">define</span><span class="w"> </span><span class="p">(</span><span class="nf">revs</span><span class="w"> </span><span class="nv">s</span><span class="p">)</span>
+<span class="w">  </span><span class="p">(</span><span class="k">cond</span><span class="w"> </span><span class="p">((</span><span class="nb">null?</span><span class="w"> </span><span class="nv">s</span><span class="p">)</span><span class="w"> </span><span class="p">())</span>
+<span class="w">        </span><span class="p">(</span><span class="k">else</span><span class="w"> </span><span class="p">(</span><span class="nb">append</span>
+<span class="w">               </span><span class="p">(</span><span class="nf">revs</span><span class="w"> </span><span class="p">(</span><span class="nb">cdr</span><span class="w"> </span><span class="nv">s</span><span class="p">))</span>
+<span class="w">               </span><span class="p">(</span><span class="nb">list</span><span class="w"> </span><span class="p">(</span><span class="nb">car</span><span class="w"> </span><span class="nv">s</span><span class="p">))))))</span>
 
 
-<span class="p">(</span><span class="nf">display</span>
- <span class="p">(</span><span class="nf">list-&gt;string</span>
-  <span class="p">(</span><span class="nf">revs</span> <span class="p">(</span><span class="nb">string-&gt;list </span><span class="s">&quot;ciao mamma, guarda come mi diverto&quot;</span><span class="p">))))</span>
-<span class="p">(</span><span class="nf">newline</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">display</span>
+<span class="w"> </span><span class="p">(</span><span class="nb">list-&gt;string</span>
+<span class="w">  </span><span class="p">(</span><span class="nf">revs</span><span class="w"> </span><span class="p">(</span><span class="nb">string-&gt;list</span><span class="w"> </span><span class="s">&quot;ciao mamma, guarda come mi diverto&quot;</span><span class="p">))))</span>
+<span class="p">(</span><span class="nb">newline</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="section" id="incomprensibilmente-complessa-emanuele">
@@ -183,30 +183,30 @@
 lettura appare davvero criptica: passa dalla conversione in byte e fa magheggi con gli indici degli array.
 Vale la pena leggerla attentamente e capire cosa fa. Ha del geniale, soprattutto perché
 ribalta la stringa senza spostare i caratteri:</p>
-<div class="highlight"><pre><span></span><span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="nf">Invert</span><span class="p">(</span><span class="kt">string</span> <span class="n">s</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">Invert</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">s</span><span class="p">)</span>
 <span class="p">{</span>
-    <span class="k">if</span><span class="p">(</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
-        <span class="k">return</span> <span class="n">s</span><span class="p">;</span>
+<span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">s</span><span class="p">;</span>
 
-    <span class="kt">var</span> <span class="n">array</span> <span class="p">=</span> <span class="n">System</span><span class="p">.</span><span class="n">Text</span><span class="p">.</span><span class="n">Encoding</span><span class="p">.</span><span class="n">ASCII</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">s</span><span class="p">);</span>
-    <span class="kt">var</span> <span class="n">l</span> <span class="p">=</span> <span class="n">array</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">var</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Text</span><span class="p">.</span><span class="n">Encoding</span><span class="p">.</span><span class="n">ASCII</span><span class="p">.</span><span class="n">GetBytes</span><span class="p">(</span><span class="n">s</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">var</span><span class="w"> </span><span class="n">l</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">array</span><span class="p">.</span><span class="n">Length</span><span class="p">;</span>
 
-    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;</span> <span class="n">l</span> <span class="p">/</span> <span class="m">2</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
-    <span class="p">{</span>
-        <span class="kt">var</span> <span class="n">diff</span> <span class="p">=</span> <span class="n">array</span><span class="p">[</span><span class="n">l</span> <span class="p">-</span> <span class="n">i</span> <span class="p">-</span><span class="m">1</span><span class="p">]</span> <span class="p">-</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
-        <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">=</span> <span class="n">System</span><span class="p">.</span><span class="n">Convert</span><span class="p">.</span><span class="n">ToByte</span><span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">+</span> <span class="n">diff</span><span class="p">);</span>
-        <span class="n">array</span><span class="p">[</span><span class="n">l</span> <span class="p">-</span> <span class="n">i</span> <span class="p">-</span><span class="m">1</span><span class="p">]</span> <span class="p">=</span> <span class="n">System</span><span class="p">.</span><span class="n">Convert</span><span class="p">.</span><span class="n">ToByte</span><span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">l</span> <span class="p">-</span> <span class="n">i</span> <span class="p">-</span><span class="m">1</span><span class="p">]</span> <span class="p">-</span> <span class="n">diff</span><span class="p">);</span>
-    <span class="p">}</span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">l</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="m">2</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="kt">var</span><span class="w"> </span><span class="n">diff</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">array</span><span class="p">[</span><span class="n">l</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">-</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+<span class="w">        </span><span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Convert</span><span class="p">.</span><span class="n">ToByte</span><span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">diff</span><span class="p">);</span>
+<span class="w">        </span><span class="n">array</span><span class="p">[</span><span class="n">l</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">-</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Convert</span><span class="p">.</span><span class="n">ToByte</span><span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">l</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">-</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">diff</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
 
-    <span class="k">return</span> <span class="n">System</span><span class="p">.</span><span class="n">Text</span><span class="p">.</span><span class="n">Encoding</span><span class="p">.</span><span class="n">Default</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">array</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Text</span><span class="p">.</span><span class="n">Encoding</span><span class="p">.</span><span class="n">Default</span><span class="p">.</span><span class="n">GetString</span><span class="p">(</span><span class="n">array</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
 </div>
 <div class="section" id="one-liner-in-linq-emanuele">
 <h3>One liner in LINQ (Emanuele)</h3>
 <p>Una terza soluzione di Emanuele, in una sola riga di LINQ, con approccio funzionale puro:</p>
-<div class="highlight"><pre><span></span><span class="n">String</span><span class="p">.</span><span class="n">Concat</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="n">Linq</span><span class="p">.</span><span class="n">Enumerable</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">s</span><span class="p">.</span><span class="n">Length</span><span class="p">)</span>
-              <span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">s</span><span class="p">.</span><span class="n">ToArray</span><span class="p">()[</span><span class="n">s</span><span class="p">.</span><span class="n">Length</span> <span class="p">-</span> <span class="m">1</span> <span class="p">-</span> <span class="n">x</span><span class="p">]).</span><span class="n">ToList</span><span class="p">())</span>
+<div class="highlight"><pre><span></span><span class="n">String</span><span class="p">.</span><span class="n">Concat</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="n">Linq</span><span class="p">.</span><span class="n">Enumerable</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">Length</span><span class="p">)</span>
+<span class="w">              </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">ToArray</span><span class="p">()[</span><span class="n">s</span><span class="p">.</span><span class="n">Length</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">x</span><span class="p">]).</span><span class="n">ToList</span><span class="p">())</span>
 </pre></div>
 </div>
 <div class="section" id="in-css-arialdo">
@@ -217,9 +217,9 @@ ribalta la stringa senza spostare i caratteri:</p>
 <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </pre></div>
 <p>con il CSS:</p>
-<div class="highlight"><pre><span></span><span class="p">.</span><span class="nc">reverse</span> <span class="p">{</span>
-  <span class="k">unicode-bidi</span><span class="p">:</span> <span class="kc">bidi-override</span><span class="p">;</span>
-  <span class="k">direction</span><span class="p">:</span> <span class="kc">rtl</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="p">.</span><span class="nc">reverse</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">unicode-bidi</span><span class="p">:</span><span class="w"> </span><span class="kc">bidi-override</span><span class="p">;</span>
+<span class="w">  </span><span class="k">direction</span><span class="p">:</span><span class="w"> </span><span class="kc">rtl</span><span class="p">;</span>
 <span class="p">}</span>
 </pre></div>
 <p>Lo potete vedere in funzione su <a class="reference external" href="https://codepen.io/anon/pen/MGeLQP">CodePen</a>.</p>
@@ -232,12 +232,12 @@ ribalta la stringa senza spostare i caratteri:</p>
 <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </pre></div>
 <p>con il CSS:</p>
-<div class="highlight"><pre><span></span><span class="p">.</span><span class="nc">reverse</span> <span class="p">{</span>
-   <span class="kp">-webkit-</span><span class="k">transform</span><span class="p">:</span><span class="nb">rotateY</span><span class="p">(</span><span class="mi">180</span><span class="kt">deg</span><span class="p">);</span>
-   <span class="kp">-moz-</span><span class="k">transform</span><span class="p">:</span><span class="nb">rotateY</span><span class="p">(</span><span class="mi">180</span><span class="kt">deg</span><span class="p">);</span>
-   <span class="kp">-o-</span><span class="k">transform</span><span class="p">:</span><span class="nb">rotateY</span><span class="p">(</span><span class="mi">180</span><span class="kt">deg</span><span class="p">);</span>
-   <span class="kp">-ms-</span><span class="k">transform</span><span class="p">:</span><span class="nb">rotateY</span><span class="p">(</span><span class="mi">180</span><span class="kt">deg</span><span class="p">);</span>
-   <span class="k">unicode-bidi</span><span class="p">:</span><span class="kc">bidi-override</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="p">.</span><span class="nc">reverse</span><span class="w"> </span><span class="p">{</span>
+<span class="w">   </span><span class="kp">-webkit-</span><span class="k">transform</span><span class="p">:</span><span class="nb">rotateY</span><span class="p">(</span><span class="mi">180</span><span class="kt">deg</span><span class="p">);</span>
+<span class="w">   </span><span class="kp">-moz-</span><span class="k">transform</span><span class="p">:</span><span class="nb">rotateY</span><span class="p">(</span><span class="mi">180</span><span class="kt">deg</span><span class="p">);</span>
+<span class="w">   </span><span class="kp">-o-</span><span class="k">transform</span><span class="p">:</span><span class="nb">rotateY</span><span class="p">(</span><span class="mi">180</span><span class="kt">deg</span><span class="p">);</span>
+<span class="w">   </span><span class="kp">-ms-</span><span class="k">transform</span><span class="p">:</span><span class="nb">rotateY</span><span class="p">(</span><span class="mi">180</span><span class="kt">deg</span><span class="p">);</span>
+<span class="w">   </span><span class="k">unicode-bidi</span><span class="p">:</span><span class="kc">bidi-override</span><span class="p">;</span>
 <span class="p">}</span>
 </pre></div>
 <img alt="" src="images/game-3-reverse-string/reversed.png" />
@@ -246,29 +246,29 @@ ribalta la stringa senza spostare i caratteri:</p>
 <div class="section" id="reverse-sleep-arialdo">
 <h3>Reverse Sleep (Arialdo)</h3>
 <p>Questo è uno spudorato plagio dello Sleep Sort, ma non ho potuto trattenermi:</p>
-<div class="highlight"><pre><span></span><span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="nf">ReverseSleep</span><span class="p">(</span><span class="kt">string</span> <span class="n">s</span><span class="p">)</span>
- <span class="p">{</span>
-   <span class="kt">var</span> <span class="n">i</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
-   <span class="n">s</span><span class="p">.</span><span class="n">ToList</span><span class="p">().</span><span class="n">ForEach</span><span class="p">(</span><span class="n">c</span> <span class="p">=&gt;</span> <span class="n">Task</span><span class="p">.</span><span class="n">Run</span><span class="p">(()</span> <span class="p">=&gt;</span>
-     <span class="p">{</span>
-       <span class="n">Thread</span><span class="p">.</span><span class="n">Sleep</span><span class="p">((</span><span class="n">s</span><span class="p">.</span><span class="n">Length</span> <span class="p">-</span> <span class="n">i</span><span class="p">++)</span> <span class="p">*</span> <span class="m">100</span><span class="p">);</span>
-       <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">c</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
-     <span class="p">}));</span>
- <span class="p">}</span>
+<div class="highlight"><pre><span></span><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">ReverseSleep</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">s</span><span class="p">)</span>
+<span class="w"> </span><span class="p">{</span>
+<span class="w">   </span><span class="kt">var</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span>
+<span class="w">   </span><span class="n">s</span><span class="p">.</span><span class="n">ToList</span><span class="p">().</span><span class="n">ForEach</span><span class="p">(</span><span class="n">c</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">Task</span><span class="p">.</span><span class="n">Run</span><span class="p">(()</span><span class="w"> </span><span class="o">=&gt;</span>
+<span class="w">     </span><span class="p">{</span>
+<span class="w">       </span><span class="n">Thread</span><span class="p">.</span><span class="n">Sleep</span><span class="p">((</span><span class="n">s</span><span class="p">.</span><span class="n">Length</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="m">100</span><span class="p">);</span>
+<span class="w">       </span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">c</span><span class="p">.</span><span class="n">ToString</span><span class="p">());</span>
+<span class="w">     </span><span class="p">}));</span>
+<span class="w"> </span><span class="p">}</span>
 </pre></div>
 </div>
 <div class="section" id="un-altro-one-liner-in-linq-arialdo-e-alessandro">
 <h3>Un altro one-liner in LINQ (Arialdo e Alessandro)</h3>
 <p>Brutto, ma funziona:</p>
-<div class="highlight"><pre><span></span><span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="nf">ReverseLinq</span><span class="p">(</span><span class="kt">string</span> <span class="n">s</span><span class="p">)</span>
- <span class="p">{</span>
-   <span class="k">return</span> <span class="kt">string</span><span class="p">.</span><span class="n">Join</span><span class="p">(</span><span class="s">&quot;&quot;</span><span class="p">,</span> <span class="n">s</span>
-     <span class="p">.</span><span class="n">Zip</span><span class="p">(</span><span class="n">Enumerable</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="n">s</span><span class="p">.</span><span class="n">Length</span><span class="p">),</span>
-       <span class="p">(</span><span class="n">character</span><span class="p">,</span> <span class="n">index</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="k">new</span> <span class="n">KeyValuePair</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">string</span><span class="p">&gt;(</span><span class="n">index</span><span class="p">,</span> <span class="n">character</span><span class="p">.</span><span class="n">ToString</span><span class="p">()))</span>
-     <span class="p">.</span><span class="n">ToDictionary</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">Key</span><span class="p">,</span> <span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">Value</span><span class="p">)</span>
-     <span class="p">.</span><span class="n">OrderByDescending</span><span class="p">(</span><span class="n">kv</span> <span class="p">=&gt;</span> <span class="n">kv</span><span class="p">.</span><span class="n">Key</span><span class="p">)</span>
-     <span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">kv</span> <span class="p">=&gt;</span> <span class="n">kv</span><span class="p">.</span><span class="n">Value</span><span class="p">));</span>
- <span class="p">}</span>
+<div class="highlight"><pre><span></span><span class="k">public</span><span class="w"> </span><span class="k">static</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="nf">ReverseLinq</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">s</span><span class="p">)</span>
+<span class="w"> </span><span class="p">{</span>
+<span class="w">   </span><span class="k">return</span><span class="w"> </span><span class="kt">string</span><span class="p">.</span><span class="n">Join</span><span class="p">(</span><span class="s">&quot;&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">s</span>
+<span class="w">     </span><span class="p">.</span><span class="n">Zip</span><span class="p">(</span><span class="n">Enumerable</span><span class="p">.</span><span class="n">Range</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">Length</span><span class="p">),</span>
+<span class="w">       </span><span class="p">(</span><span class="n">character</span><span class="p">,</span><span class="w"> </span><span class="n">index</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">KeyValuePair</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="kt">string</span><span class="o">&gt;</span><span class="p">(</span><span class="n">index</span><span class="p">,</span><span class="w"> </span><span class="n">character</span><span class="p">.</span><span class="n">ToString</span><span class="p">()))</span>
+<span class="w">     </span><span class="p">.</span><span class="n">ToDictionary</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="p">.</span><span class="n">Key</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">x</span><span class="p">.</span><span class="n">Value</span><span class="p">)</span>
+<span class="w">     </span><span class="p">.</span><span class="n">OrderByDescending</span><span class="p">(</span><span class="n">kv</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">kv</span><span class="p">.</span><span class="n">Key</span><span class="p">)</span>
+<span class="w">     </span><span class="p">.</span><span class="n">Select</span><span class="p">(</span><span class="n">kv</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">kv</span><span class="p">.</span><span class="n">Value</span><span class="p">));</span>
+<span class="w"> </span><span class="p">}</span>
 </pre></div>
 </div>
 <div class="section" id="service-now-emanuele-e-stefano">
@@ -332,7 +332,7 @@ ribalta la stringa senza spostare i caratteri:</p>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2021 TicinoXP
+         <div class="col-xs-10">&copy; 2023 TicinoXP
             &middot; Powered by Python <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>         </div>
          <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
       </div>

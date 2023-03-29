@@ -2,7 +2,7 @@
 <html lang="it"
 >
 <head>
-    <title>L'arte perduta del TDD - Sessione 2 - TicinoXP</title>
+    <title>kata - TicinoXP</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,23 +10,27 @@
 
 
 
-<link rel="canonical" href="./arte-perduta-del-tdd-2">
 
-        <meta name="author" content="Arialdo Martini" />
-        <meta name="keywords" content="tdd" />
-        <meta name="description" content="Nel primo incontro abbiamo messo a confronto due tipi diversi di approcci outside-in. Ne ha fatto un piccolo resoconto Emanuele su LinkedIn. Uno dei temi che è emerso in una chiacchierata a margine con Gian Carlo Pace è che gli approcci outside-in e inside-out potrebbero essere contemporaneamente applicabili alla stessa …" />
+    <meta name="author" content="TicinoXP" />
+    <meta name="keywords" content="kata" />
 
     <!-- Enable latex plugin -->
 
 
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="TicinoXP" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="TicinoXP"/>
+        <meta property="og:url" content=".."/>
+        <meta property="og:description" content="TicinoXP"/>
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="./theme/css/bootstrap.arialdo.min.css" type="text/css"/>
-    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../theme/css/bootstrap.arialdo.min.css" type="text/css"/>
+    <link href="../theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="./theme/css/pygments/native.css" rel="stylesheet">
-    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+    <link href="../theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="../theme/css/style.css" type="text/css"/>
 
 
 
@@ -43,26 +47,26 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="./" class="navbar-brand">
-<img src="./images/ticinoxp-75.png" width="75px"/>             </a>
+            <a href="../" class="navbar-brand">
+<img src="../images/ticinoxp-75.png" width="75px"/>             </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li><a href="./about">
+                         <li><a href="../about">
                              About
                           </a></li>
                         <li >
-                            <a href="./code-games">Code games</a>
-                        </li>
-                        <li class="active">
-                            <a href="./meetup">Meetup</a>
+                            <a href="../code-games">Code games</a>
                         </li>
                         <li >
-                            <a href="./reading-club">Reading club</a>
+                            <a href="../meetup">Meetup</a>
+                        </li>
+                        <li >
+                            <a href="../reading-club">Reading club</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+                <li><a href="../archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -72,27 +76,22 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-            <ol class="breadcrumb">
-                <li><a href="." title="TicinoXP"><i class="fa fa-home fa-lg"></i></a></li>
-                <li class="active">L'arte perduta del TDD - Sessione 2</li>
-            </ol>
+    <ol class="breadcrumb">
+        <li><a href=".." title="TicinoXP"><i class="fa fa-home fa-lg"></i></a></li>
+        <li><a href="../" title="Tags">Tags</a></li>
+        <li class="active">kata</li>
+    </ol>
 
-    <section id="content">
-        <article>
-            <header class="page-header">
+<article>
     <p>
-        <a class="btn btn-default btn-xs" href="./category/Meetup">Meetup</a>
+        <a class="btn btn-default btn-xs" href="../category/Meetup">Meetup</a>
     </p>
-                <h1>
-                    <a href="./arte-perduta-del-tdd-2"
-                       rel="bookmark"
-                       title="Permalink to L'arte perduta del TDD - Sessione 2">
-                        L'arte perduta del TDD - Sessione 2
-                    </a>
-                </h1>
+    <h2>
+        <a href="../da-oop-a-fp-e-ritorno">Da OOP a FP, e ritorno</a>
+    </h2>
 <footer class="post-info">
     <span class="published">
-        Arialdo Martini - <i class="fa fa-calendar"></i><time datetime="2021-01-22T08:30:00+01:00"> Fri 22 January 2021</time>
+        Arialdo Martini - <i class="fa fa-calendar"></i><time datetime="2023-03-28T08:30:00+02:00"> Tue 28 March 2023</time>
     </span>
 
 
@@ -102,26 +101,15 @@
 
 
     
-</footer><!-- /.post-info -->            </header>
-            <div class="entry-content">
-                <!-- <span class="published">
-                     Arialdo Martini - <i class="fa fa-calendar"></i><time datetime="2021-01-22T08:30:00+01:00"> Fri 22 January 2021</time>
-                     </span>
-                   -->
-
-                <p>Nel primo incontro abbiamo messo a confronto due tipi diversi di approcci outside-in. Ne ha fatto un <a class="reference external" href="https://www.linkedin.com/feed/update/urn:li:activity:6758300129939214336/">piccolo resoconto</a> Emanuele su LinkedIn.</p>
-<p>Uno dei temi che è emerso in una chiacchierata a margine con Gian Carlo Pace è che gli approcci outside-in e inside-out potrebbero essere contemporaneamente applicabili alla stessa code base, in un'ottica hexahonal, l'uno nel core e l'altro negli adapter. Potrebbe essere un tema interessante da esplorare. Ma, di nuovo: ci interessa più discutere di design che completare il Kata in sé.</p>
-<p>Ci troviamo di nuovo mercoledì 27 gennaio 2021, sempre alle 18:00 e sempre su <a class="reference external" href="https://meet.jit.si/arte-perduta-del-tdd">Jitsi</a>.</p>
-<p>Come sempre, l'evento è gratuito e in italiano.</p>
-<ul class="simple">
-<li><strong>Quando</strong>: mercoledì 27 gennaio 2021, alle 18:00</li>
-<li><strong>Dove</strong>: online, con Jitsi, su <a class="reference external" href="https://meet.jit.si/arte-perduta-del-tdd">https://meet.jit.si/arte-perduta-del-tdd</a>.</li>
-</ul>
+</footer><!-- /.post-info -->    <br />
+    <div class="summary">
+        <p>
+            Rifattorizzare codice Object Oriented in stile Functional Programming
+        </p>
 
             </div>
-            <!-- /.entry-content -->
-        </article>
-    </section>
+         </article>
+         <hr/>
 
         </div>
         <div class="col-sm-3 well well-sm" id="sidebar">
@@ -178,13 +166,13 @@
       </div>
    </div>
 </footer>
-<script src="./theme/js/jquery.min.js"></script>
+<script src="../theme/js/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./theme/js/bootstrap.min.js"></script>
+<script src="../theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="./theme/js/respond.min.js"></script>
+<script src="../theme/js/respond.min.js"></script>
 
     <!-- Google Analytics -->
     <script type="text/javascript">
