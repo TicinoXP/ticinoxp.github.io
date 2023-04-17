@@ -2,7 +2,7 @@
 <html lang="it"
 >
 <head>
-    <title>kata - TicinoXP</title>
+    <title>Da OOP a FP, e ritorno - TicinoXP</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,27 +10,23 @@
 
 
 
+<link rel="canonical" href="./da-oop-a-fp-2">
 
-    <meta name="author" content="TicinoXP" />
-    <meta name="keywords" content="kata" />
+        <meta name="author" content="Arialdo Martini" />
+        <meta name="keywords" content="tdd,kata" />
+        <meta name="description" content="Nella seconda sessione ha guidato Emanuele che è entrato pesantemente a gamba tesa: ha voluto eliminare un if con l&#39;uso di un Option, implementato a mano. Avremmo potuto usare [language-ext](https://github.com/louthy/language-ext), ma abbiamo pensato che sarà più divertente e istruttivo implementare ogni feature funzionale a mano …" />
 
     <!-- Enable latex plugin -->
 
 
-    <!-- Open Graph tags -->
-        <meta property="og:site_name" content="TicinoXP" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="TicinoXP"/>
-        <meta property="og:url" content=".."/>
-        <meta property="og:description" content="TicinoXP"/>
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="../theme/css/bootstrap.arialdo.min.css" type="text/css"/>
-    <link href="../theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./theme/css/bootstrap.arialdo.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="../theme/css/pygments/native.css" rel="stylesheet">
-    <link rel="stylesheet" href="../theme/css/style.css" type="text/css"/>
+    <link href="./theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
 
 
 
@@ -47,26 +43,26 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="../" class="navbar-brand">
-<img src="../images/ticinoxp-75.png" width="75px"/>             </a>
+            <a href="./" class="navbar-brand">
+<img src="./images/ticinoxp-75.png" width="75px"/>             </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li><a href="../about">
+                         <li><a href="./about">
                              About
                           </a></li>
                         <li >
-                            <a href="../code-games">Code games</a>
+                            <a href="./code-games">Code games</a>
+                        </li>
+                        <li class="active">
+                            <a href="./meetup">Meetup</a>
                         </li>
                         <li >
-                            <a href="../meetup">Meetup</a>
-                        </li>
-                        <li >
-                            <a href="../reading-club">Reading club</a>
+                            <a href="./reading-club">Reading club</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="../archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+                <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -76,19 +72,24 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <ol class="breadcrumb">
-        <li><a href=".." title="TicinoXP"><i class="fa fa-home fa-lg"></i></a></li>
-        <li><a href="../" title="Tags">Tags</a></li>
-        <li class="active">kata</li>
-    </ol>
+            <ol class="breadcrumb">
+                <li><a href="." title="TicinoXP"><i class="fa fa-home fa-lg"></i></a></li>
+                <li class="active">Da OOP a FP, e ritorno</li>
+            </ol>
 
-<article>
+    <section id="content">
+        <article>
+            <header class="page-header">
     <p>
-        <a class="btn btn-default btn-xs" href="../category/Meetup">Meetup</a>
+        <a class="btn btn-default btn-xs" href="./category/Meetup">Meetup</a>
     </p>
-    <h2>
-        <a href="../da-oop-a-fp-2">Da OOP a FP, e ritorno</a>
-    </h2>
+                <h1>
+                    <a href="./da-oop-a-fp-2"
+                       rel="bookmark"
+                       title="Permalink to Da OOP a FP, e ritorno">
+                        Da OOP a FP, e ritorno
+                    </a>
+                </h1>
 <footer class="post-info">
     <span class="published">
         Arialdo Martini - <i class="fa fa-calendar"></i><time datetime="2023-04-15T08:30:00+02:00"> Sat 15 April 2023</time>
@@ -101,43 +102,25 @@
 
 
     
-</footer><!-- /.post-info -->    <br />
-    <div class="summary">
-        <p>
-            Rifattorizzare codice Object Oriented in stile Functional Programming - Incontro 2
-        </p>
+</footer><!-- /.post-info -->            </header>
+            <div class="entry-content">
+                <!-- <span class="published">
+                     Arialdo Martini - <i class="fa fa-calendar"></i><time datetime="2023-04-15T08:30:00+02:00"> Sat 15 April 2023</time>
+                     </span>
+                   -->
+
+                <p>Nella seconda sessione ha guidato Emanuele che è entrato pesantemente a gamba tesa: ha voluto eliminare un <cite>if</cite> con l'uso di un Option, implementato a mano. Avremmo potuto usare [language-ext](<a class="reference external" href="https://github.com/louthy/language-ext">https://github.com/louthy/language-ext</a>), ma abbiamo pensato che sarà più divertente e istruttivo implementare ogni feature funzionale a mano.</p>
+<p>Non tutti i partecipanti avevano avuto modo di lavorare con un option, per cui vedremo di organizzare una sessione extra solo sull'argomento.</p>
+<p>Come sempre, l'evento è gratuito e in italiano.</p>
+<ul class="simple">
+<li><strong>Quando</strong>: giovedì 25 aprile 2023, alle 18:00</li>
+<li><strong>Dove</strong>: online, con Jitsi, su <a class="reference external" href="https://meet.jit.si/ticinoxp">https://meet.jit.si/ticinoxp</a>.</li>
+</ul>
 
             </div>
-         </article>
-         <hr/>
-<article>
-    <p>
-        <a class="btn btn-default btn-xs" href="../category/Meetup">Meetup</a>
-    </p>
-    <h2>
-        <a href="../da-oop-a-fp-e-ritorno">Da OOP a FP, e ritorno</a>
-    </h2>
-<footer class="post-info">
-    <span class="published">
-        Arialdo Martini - <i class="fa fa-calendar"></i><time datetime="2023-03-28T08:30:00+02:00"> Tue 28 March 2023</time>
-    </span>
-
-
-
-
-
-
-
-    
-</footer><!-- /.post-info -->    <br />
-    <div class="summary">
-        <p>
-            Rifattorizzare codice Object Oriented in stile Functional Programming
-        </p>
-
-            </div>
-         </article>
-         <hr/>
+            <!-- /.entry-content -->
+        </article>
+    </section>
 
         </div>
         <div class="col-sm-3 well well-sm" id="sidebar">
@@ -194,13 +177,13 @@
       </div>
    </div>
 </footer>
-<script src="../theme/js/jquery.min.js"></script>
+<script src="./theme/js/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../theme/js/bootstrap.min.js"></script>
+<script src="./theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="../theme/js/respond.min.js"></script>
+<script src="./theme/js/respond.min.js"></script>
 
     <!-- Google Analytics -->
     <script type="text/javascript">
