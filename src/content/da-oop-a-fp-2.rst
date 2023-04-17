@@ -1,5 +1,5 @@
-Da OOP a FP, e ritorno
-######################
+Da OOP a FP, e ritorno - Sessione 2
+###################################
 
 :date: 2023-04-15 08:30
 :tags: tdd, kata
@@ -16,6 +16,6 @@ Non tutti i partecipanti avevano avuto modo di lavorare con un option, per cui v
 
 Come sempre, l'evento è gratuito e in italiano.
 
-- **Quando**: giovedì 25 aprile 2023, alle 18:00
+- **Quando**: giovedì 27 aprile 2023, alle 18:00
 
 - **Dove**: online, con Jitsi, su `https://meet.jit.si/ticinoxp <https://meet.jit.si/ticinoxp>`_.
